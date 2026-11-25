@@ -7,6 +7,7 @@ import {
   PORTAL_VIDEOS,
   type PortalVideo,
 } from './data/portalData';
+import { mountFeedbackBoard } from './feedbackBoard';
 import { ICONS } from './icons';
 import {
   initOwnerStatsFlag,
@@ -142,6 +143,7 @@ function mount(): void {
           <a class="nav-link" href="#editions" data-nav="editions">${ICONS.monitor(17)}<span>플랫폼</span></a>
           <a class="nav-link" href="#preview" data-nav="preview">${ICONS.grid(17)}<span>미리보기</span></a>
           <a class="nav-link" href="#downloads" data-nav="downloads">${ICONS.download(17)}<span>다운로드</span></a>
+          <a class="nav-link" href="#board" data-nav="board">${ICONS.messageSquare(17)}<span>제보 · 게시판</span></a>
         </nav>
 
         <div class="sidebar-spacer"></div>
@@ -306,6 +308,10 @@ function mount(): void {
           </div>
 
           <div class="faq-list" id="faq-list"></div>
+        </section>
+
+        <section id="board" class="page-section">
+          <div id="feedback-board-root"></div>
         </section>
 
         <footer class="portal-footer">
@@ -679,7 +685,7 @@ function mount(): void {
     },
     { rootMargin: '-22% 0px -65% 0px', threshold: 0.05 },
   );
-  ['discover', 'videos', 'editions', 'preview', 'downloads'].forEach((id) => {
+  ['discover', 'videos', 'editions', 'preview', 'downloads', 'board'].forEach((id) => {
     const el = document.getElementById(id);
     if (el) observer.observe(el);
   });
@@ -717,6 +723,11 @@ function mount(): void {
   renderEditions();
   renderGallery();
   renderReleasesAndFaq();
+
+  const boardRoot = document.getElementById('feedback-board-root');
+  if (boardRoot) {
+    mountFeedbackBoard(boardRoot, PORTAL_META.latestVersion);
+  }
 
   if (initOwnerStatsFlag()) {
     showOwnerStats(false);

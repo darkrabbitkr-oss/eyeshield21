@@ -41,4 +41,8 @@ export const ICONS = {
     svg('<path d="M20 6L9 17l-5-5" />', size),
   menu: (size = 20) =>
     svg('<path d="M4 6h16" /><path d="M4 12h16" /><path d="M4 18h16" />', size),
+  messageSquare: (size = 18) =>
+    svg('<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />', size),
+  refresh: (size = 15) =>
+    svg('<path d="M23 4v6h-6" /><path d="M1 20v-6h6" /><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10" /><path d="M1 14l4.64 4.36A9 9 0 0 0 20.49 15" />', size),
 };
