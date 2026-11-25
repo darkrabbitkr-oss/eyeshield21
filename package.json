@@ -1,0 +1,16 @@
+{
+  "name": "eyeshield21-portal",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "EYESHIELD 21: Tactical Football Manager — Official Fan-Game Showcase & Download Portal",
+  "scripts": {
+    "dev": "vite --port 5174",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4174"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
