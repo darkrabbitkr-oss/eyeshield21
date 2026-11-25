@@ -1214,6 +1214,58 @@ button {
   color: var(--ink-muted);
 }
 
+.past-releases-details {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.past-releases-details summary {
+  list-style: none;
+  padding: 13px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+}
+
+.past-releases-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.past-releases-details[open] summary .icon {
+  transform: rotate(180deg);
+}
+
+.past-releases-details summary .icon {
+  transition: transform 0.18s ease;
+  color: var(--ink-subtle);
+}
+
+.past-releases-list {
+  padding: 0 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.past-release-row {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.past-release-row + .past-release-row {
+  border-top: 1px dashed var(--border);
+}
+
 /* Feedback & Community Board */
 .board-header-actions {
   display: flex;

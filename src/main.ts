@@ -483,18 +483,19 @@ function mount(): void {
   function renderReleasesAndFaq(): void {
     const relEl = document.getElementById('releases-list');
     const faqEl = document.getElementById('faq-list');
-    if (relEl) {
-      relEl.innerHTML = PORTAL_RELEASES.map(
-        (rel) => `
-        <article class="release-row">
+    if (relEl && PORTAL_RELEASES.length > 0) {
+      const latest = PORTAL_RELEASES[0];
+      const past = PORTAL_RELEASES.slice(1);
+      relEl.innerHTML = `
+        <article class="release-row release-latest">
           <div class="release-head">
             <div class="release-title-group">
-              <span class="release-ver tabular">${rel.version}</span>
-              ${rel.isLatest ? '<span class="pill pill-crimson">최신</span>' : ''}
-              <span class="release-sub tabular">${rel.platform} · ${rel.sizeText} · ${rel.date}</span>
+              <span class="release-ver tabular">${latest.version}</span>
+              <span class="pill pill-crimson">최신 · 권장 다운로드</span>
+              <span class="release-sub tabular">${latest.platform} · ${latest.sizeText} · ${latest.date}</span>
             </div>
             <div class="release-downloads">
-              ${rel.downloads
+              ${latest.downloads
                 .map((dl) =>
                   renderChipLink(dl.label, dl.href, {
                     downloadFilename: dl.filename,
@@ -505,11 +506,39 @@ function mount(): void {
             </div>
           </div>
           <ul class="release-notes">
-            ${rel.highlights.map((h) => `<li>${h}</li>`).join('')}
+            ${latest.highlights.map((h) => `<li>${h}</li>`).join('')}
           </ul>
         </article>
-      `,
-      ).join('');
+        ${
+          past.length > 0
+            ? `
+          <details class="past-releases-details">
+            <summary>
+              <span>이전 업데이트 변경 이력 보기 (${past.length}개 버전)</span>
+              ${ICONS.chevronDown(15)}
+            </summary>
+            <div class="past-releases-list">
+              ${past
+                .map(
+                  (rel) => `
+                <article class="past-release-row">
+                  <div class="release-title-group">
+                    <span class="release-ver tabular">${rel.version}</span>
+                    <span class="release-sub tabular">${rel.date}</span>
+                  </div>
+                  <ul class="release-notes">
+                    ${rel.highlights.map((h) => `<li>${h}</li>`).join('')}
+                  </ul>
+                </article>
+              `,
+                )
+                .join('')}
+            </div>
+          </details>
+        `
+            : ''
+        }
+      `;
     }
     if (faqEl) {
       faqEl.innerHTML = PORTAL_FAQS.map(
