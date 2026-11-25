@@ -73,16 +73,16 @@ export const PORTAL_META = {
   heroHeadline: '0.1초를 꺾는 광속의 필드.',
   heroDescription:
     '11 vs 11 실시간 미식축구 조작과 원작 정발판 필살기 106종 컷인, 9챕터 스토리, 42팀 871명 감독 커리어를 한 번에 담았습니다.',
-  latestVersion: 'v0.1.2',
+  latestVersion: 'v0.1.3',
   dmgDirectUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.2/Eyeshield21-TacticalManager-0.1.2-arm64.dmg',
-  dmgFilename: 'Eyeshield21-TacticalManager-0.1.2-arm64.dmg',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-0.1.3-arm64.dmg',
+  dmgFilename: 'Eyeshield21-TacticalManager-0.1.3-arm64.dmg',
   winSetupUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.2/Eyeshield21-TacticalManager-Setup-0.1.2-x64.exe',
-  winSetupFilename: 'Eyeshield21-TacticalManager-Setup-0.1.2-x64.exe',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-Setup-0.1.3-x64.exe',
+  winSetupFilename: 'Eyeshield21-TacticalManager-Setup-0.1.3-x64.exe',
   apkDirectUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.2/Eyeshield21-TacticalManager-0.1.2-android.apk',
-  apkFilename: 'Eyeshield21-TacticalManager-0.1.2-android.apk',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-0.1.3-android.apk',
+  apkFilename: 'Eyeshield21-TacticalManager-0.1.3-android.apk',
   gatekeeperCmd: 'xattr -cr "/Applications/EYESHIELD 21.app"',
   legalNotice:
     '비공식 팬메이드 프로젝트 · Eyeshield 21 © Riichiro Inagaki, Yusuke Murata / Shueisha',
@@ -162,18 +162,18 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Windows EXE',
     badge: 'WINDOWS 64-BIT',
     title: 'Windows 설치형 · 포터블 (.exe)',
-    version: 'v0.1.2',
+    version: 'v0.1.3',
     sizeText: 'Setup 130 MB · Portable 119 MB',
     summary: 'Windows PC용 NSIS 설치 파일과 무설치 포터블 실행 파일 2종을 바로 다운로드할 수 있습니다.',
     image: './media/shot_gameplay.jpg',
     actionLabel: '설치형 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.2/Eyeshield21-TacticalManager-Setup-0.1.2-x64.exe',
-    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.1.2-x64.exe',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-Setup-0.1.3-x64.exe',
+    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.1.3-x64.exe',
     secondaryAction: {
       label: '포터블 받기',
-      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.2/Eyeshield21-TacticalManager-Portable-0.1.2-x64.exe',
-      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.1.2-x64.exe',
+      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-Portable-0.1.3-x64.exe',
+      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.1.3-x64.exe',
     },
     external: false,
     requirement: 'Windows 10 / 11 (x64)',
@@ -184,14 +184,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'macOS DMG',
     badge: 'MACOS APPLE SILICON',
     title: 'macOS 설치용 앱 (DMG)',
-    version: 'v0.1.2',
+    version: 'v0.1.3',
     sizeText: '130 MB',
     summary: '오프라인 폰트와 BGM, 106종 컷인이 모두 내장된 macOS(M1~M4) 전용 단독 설치 패키지입니다.',
     image: './media/shot_cutin_d4d.jpg',
     actionLabel: 'DMG 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.2/Eyeshield21-TacticalManager-0.1.2-arm64.dmg',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.1.2-arm64.dmg',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-0.1.3-arm64.dmg',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.1.3-arm64.dmg',
     external: false,
     requirement: 'macOS 12+ (Apple Silicon)',
   },
@@ -201,14 +201,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Android APK',
     badge: 'ANDROID MOBILE',
     title: 'Android 모바일 앱 (.apk)',
-    version: 'v0.1.2',
+    version: 'v0.1.3',
     sizeText: '18 MB',
     summary: '가로 모드 고정 화면에 가상 조이스틱·필살기·패스 버튼이 자동 활성되는 서명 APK입니다.',
     image: './media/shot_cutin_ghost.jpg',
     actionLabel: 'APK 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.2/Eyeshield21-TacticalManager-0.1.2-android.apk',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.1.2-android.apk',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-0.1.3-android.apk',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.1.3-android.apk',
     external: false,
     requirement: 'Android 7.0+ (서명 APK)',
   },
@@ -218,7 +218,7 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Web 브라우저',
     badge: 'WEB PREVIEW',
     title: '웹 브라우저 실시간 플레이',
-    version: 'v0.1.2',
+    version: 'v0.1.3',
     sizeText: '즉시 실행',
     summary: '설치 과정 없이 웹 브라우저에서 바로 11 vs 11 매치와 감독 모드를 플레이할 수 있습니다.',
     image: './media/shot_td.jpg',
@@ -270,9 +270,44 @@ export const PORTAL_PREVIEWS: PortalPreviewShot[] = [
 
 export const PORTAL_RELEASES: PortalRelease[] = [
   {
-    version: 'v0.1.2',
+    version: 'v0.1.3',
     date: '2026. 11. 25.',
     isLatest: true,
+    platform: 'Win .exe · macOS .dmg · Android .apk · Web',
+    sizeText: 'EXE 130 MB / DMG 130 MB / APK 18 MB',
+    downloads: [
+      {
+        label: 'macOS DMG',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-0.1.3-arm64.dmg',
+        filename: 'Eyeshield21-TacticalManager-0.1.3-arm64.dmg',
+        primary: true,
+      },
+      {
+        label: 'Win 설치형',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-Setup-0.1.3-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Setup-0.1.3-x64.exe',
+      },
+      {
+        label: 'Win 포터블',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-Portable-0.1.3-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Portable-0.1.3-x64.exe',
+      },
+      {
+        label: 'Android APK',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.1.3/Eyeshield21-TacticalManager-0.1.3-android.apk',
+        filename: 'Eyeshield21-TacticalManager-0.1.3-android.apk',
+      },
+    ],
+    highlights: [
+      '원작 아이실드 21·NFL 실전 공격·트릭 전술 9종(플리 플리커·훅 앤 래더·데빌 드래곤플라이·크라이스트 크로스·헤일 데빌 메리 등)과 수비 전술 6종(커버 3·커버 4·존 블리츠·오죠 더블 A·에이스 스파이·범프 앤 런) 추가',
+      '프리-스냅 제트 모션(M 키 / 화면 버튼)으로 스냅 전 수비 맨투맨·존 판독 지원',
+      '작전판 카테고리 필터 탭(전체/런/패스/트릭·특수, 수비 탭) UI 개편',
+    ],
+  },
+  {
+    version: 'v0.1.2',
+    date: '2026. 11. 25.',
+    isLatest: false,
     platform: 'Win .exe · macOS .dmg · Android .apk · Web',
     sizeText: 'EXE 130 MB / DMG 130 MB / APK 18 MB',
     downloads: [
@@ -340,7 +375,7 @@ export const PORTAL_FAQS: PortalFaq[] = [
   {
     question: '기본 경기 조작키가 궁금해요',
     answer:
-      '볼 캐리어 이동은 W/A/S/D 또는 방향키, 전력 질주/다이브는 Space, 패스 타깃 지정은 숫자 1/2/3, 필살기 발동은 Z/X/C/V 슬롯(자동 발동 토글 Q, 라인맨 직접 조종 전환 L)을 사용합니다.',
+      '볼 캐리어 이동은 W/A/S/D 또는 방향키, 전력 질주/다이브는 Space, 패스 타깃 지정은 숫자 1/2/3, 필살기 발동은 Z/X/C/V 슬롯(자동 발동 토글 Q, 라인맨 직접 조종 전환 L, 프리-스냅 제트 모션은 M)을 사용합니다.',
   },
   {
     question: 'Windows SmartScreen 또는 Android 앱 설치 경고가 뜰 때',
