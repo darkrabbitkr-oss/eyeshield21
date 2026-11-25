@@ -24,9 +24,25 @@ function loadInitialTheme(): ThemeMode {
   return 'dark';
 }
 
+function buildYoutubeEmbedIframe(youtubeId: string, title: string, autoplay = false): string {
+  const params = new URLSearchParams({
+    rel: '0',
+    playsinline: '1',
+  });
+  if (autoplay) params.set('autoplay', '1');
+  return `<iframe src="https://www.youtube.com/embed/${youtubeId}?${params.toString()}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+}
+
+function youtubeWatchUrl(video: PortalVideo): string {
+  if (!video.youtubeId) return '';
+  return video.aspect === '9/16'
+    ? `https://www.youtube.com/shorts/${video.youtubeId}`
+    : `https://youtu.be/${video.youtubeId}`;
+}
+
 function renderVideoPlayerHtml(video: PortalVideo): string {
   if (video.youtubeId) {
-    return `<iframe src="https://www.youtube-nocookie.com/embed/${video.youtubeId}?rel=0" title="${video.title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    return buildYoutubeEmbedIframe(video.youtubeId, video.title, false);
   }
   return `<video controls preload="metadata" poster="${video.poster}" src="${video.localSrc}"></video>`;
 }
@@ -217,7 +233,12 @@ function mount(): void {
                   <div class="theater-caption-title" id="theater-title"></div>
                   <div class="theater-caption-sub" id="theater-sub"></div>
                 </div>
-                <span class="pill tabular" id="theater-badge"></span>
+                <div class="theater-caption-actions">
+                  <span class="pill tabular" id="theater-badge"></span>
+                  <a class="btn-chip btn-chip-secondary" id="theater-yt-link" href="#" target="_blank" rel="noopener" hidden>
+                    <span>YouTube에서 보기</span>${ICONS.external(13)}
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -324,6 +345,7 @@ function mount(): void {
     const titleEl = document.getElementById('theater-title');
     const subEl = document.getElementById('theater-sub');
     const badgeEl = document.getElementById('theater-badge');
+    const ytLink = document.getElementById('theater-yt-link') as HTMLAnchorElement | null;
     const listEl = document.getElementById('video-playlist');
     if (!vp || !titleEl || !subEl || !badgeEl || !listEl) return;
 
@@ -332,6 +354,14 @@ function mount(): void {
     titleEl.textContent = vid.title;
     subEl.textContent = vid.subtitle;
     badgeEl.textContent = `${vid.aspect} · ${vid.duration}`;
+    if (ytLink) {
+      if (vid.youtubeId) {
+        ytLink.href = youtubeWatchUrl(vid);
+        ytLink.hidden = false;
+      } else {
+        ytLink.hidden = true;
+      }
+    }
 
     listEl.innerHTML =
       PORTAL_VIDEOS.map(
@@ -503,7 +533,7 @@ function mount(): void {
     if (!modal || !wrap) return;
     const heroVid = PORTAL_VIDEOS[0];
     if (heroVid.youtubeId) {
-      wrap.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${heroVid.youtubeId}?autoplay=1&rel=0" title="${heroVid.title}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+      wrap.innerHTML = buildYoutubeEmbedIframe(heroVid.youtubeId, heroVid.title, true);
     } else {
       wrap.innerHTML = `<video controls autoplay playsinline src="${heroVid.localSrc}" poster="${heroVid.poster}"></video>`;
     }

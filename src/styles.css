@@ -624,6 +624,13 @@ button {
   margin-top: 2px;
 }
 
+.theater-caption-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .playlist-col {
   display: flex;
   flex-direction: column;
