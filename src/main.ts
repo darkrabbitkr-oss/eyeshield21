@@ -216,7 +216,7 @@ function mount(): void {
               </div>
               <div class="spec-cell">
                 <span class="spec-label">스토리 캠페인</span>
-                <span class="spec-value tabular">정규 9챕터</span>
+                <span class="spec-value tabular">완전판 15챕터 · ★45</span>
               </div>
               <div class="spec-cell">
                 <span class="spec-label">지원 환경</span>
