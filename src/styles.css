@@ -533,6 +533,16 @@ button {
   border-color: rgba(214, 40, 57, 0.34);
 }
 
+.pill-gold {
+  background: var(--gold-soft);
+  color: var(--gold);
+  border-color: rgba(247, 208, 70, 0.36);
+}
+
+.pill[hidden] {
+  display: none;
+}
+
 .specs-bar {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -941,6 +951,132 @@ button {
   color: var(--ink-muted);
 }
 
+/* Owner-Only Live Download Stats */
+.owner-stats-panel {
+  margin-bottom: 18px;
+  padding: 18px 20px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.owner-stats-panel[hidden] {
+  display: none;
+}
+
+.owner-stats-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.owner-stats-title {
+  margin-top: 6px;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  color: var(--ink);
+}
+
+.owner-stats-meta,
+.owner-stats-status {
+  margin-top: 2px;
+  font-size: 0.82rem;
+  color: var(--ink-subtle);
+}
+
+.owner-stats-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.owner-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.owner-kpi-cell {
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.owner-kpi-total {
+  border-color: rgba(247, 208, 70, 0.38);
+}
+
+.owner-kpi-val {
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  color: var(--ink);
+}
+
+.owner-release-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.owner-rel-row {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.owner-rel-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+
+.owner-rel-total {
+  font-size: 0.82rem;
+  color: var(--gold);
+  font-family: var(--font-ui);
+}
+
+.owner-rel-chips {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.owner-asset-chip {
+  padding: 3px 9px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+.owner-asset-chip b {
+  color: var(--ink);
+  font-family: var(--font-ui);
+  margin-left: 3px;
+}
+
 /* Downloads & FAQ */
 .releases-list {
   display: flex;
@@ -1281,6 +1417,10 @@ button {
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .owner-kpi-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 640px) {
@@ -1308,6 +1448,10 @@ button {
   .editions-grid,
   .gallery-grid {
     grid-template-columns: 1fr;
+  }
+
+  .owner-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 

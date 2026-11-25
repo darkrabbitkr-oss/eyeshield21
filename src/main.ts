@@ -8,6 +8,12 @@ import {
   type PortalVideo,
 } from './data/portalData';
 import { ICONS } from './icons';
+import {
+  initOwnerStatsFlag,
+  isOwnerStatsEnabled,
+  renderOwnerStatsPanel,
+  setOwnerStatsFlag,
+} from './ownerStats';
 
 type ThemeMode = 'dark' | 'light';
 type PlatformFilter = 'all' | 'windows' | 'macos' | 'android' | 'web';
@@ -186,6 +192,7 @@ function mount(): void {
                   <h2>${PORTAL_META.gameTitle}</h2>
                   <div class="app-meta-line">
                     <span class="pill pill-crimson tabular">${PORTAL_META.latestVersion}</span>
+                    <span class="pill pill-gold tabular" id="owner-total-pill" hidden></span>
                     <span>실시간 미식축구 전술 팬게임 · 한국어 정발판 고증</span>
                   </div>
                 </div>
@@ -282,6 +289,8 @@ function mount(): void {
               <p class="section-desc">원하는 플랫폼 버튼을 누르면 즉시 파일이 다운로드되며, macOS 보안 해제 가이드를 함께 제공합니다.</p>
             </div>
           </div>
+
+          <div class="owner-stats-panel" id="owner-stats-panel" hidden></div>
 
           <div class="releases-list" id="releases-list"></div>
 
@@ -612,6 +621,11 @@ function mount(): void {
   });
 
   document.addEventListener('keydown', (e) => {
+    if (e.altKey && e.shiftKey && (e.key === 'D' || e.key === 'd')) {
+      e.preventDefault();
+      toggleOwnerStats();
+      return;
+    }
     if (e.key === 'Escape') {
       closeTrailerModal();
       closeLightbox();
@@ -670,10 +684,43 @@ function mount(): void {
     if (el) observer.observe(el);
   });
 
+  const ownerPanelEl = document.getElementById('owner-stats-panel');
+  const ownerPillEl = document.getElementById('owner-total-pill');
+
+  function hideOwnerStats(): void {
+    setOwnerStatsFlag(false);
+    if (ownerPanelEl) {
+      ownerPanelEl.hidden = true;
+      ownerPanelEl.innerHTML = '';
+    }
+    if (ownerPillEl) {
+      ownerPillEl.hidden = true;
+      ownerPillEl.textContent = '';
+    }
+  }
+
+  function showOwnerStats(force = false): void {
+    if (!ownerPanelEl) return;
+    setOwnerStatsFlag(true);
+    void renderOwnerStatsPanel(ownerPanelEl, ownerPillEl, hideOwnerStats, force);
+  }
+
+  function toggleOwnerStats(): void {
+    if (isOwnerStatsEnabled()) {
+      hideOwnerStats();
+    } else {
+      showOwnerStats(true);
+    }
+  }
+
   renderTheater();
   renderEditions();
   renderGallery();
   renderReleasesAndFaq();
+
+  if (initOwnerStatsFlag()) {
+    showOwnerStats(false);
+  }
 }
 
 mount();
