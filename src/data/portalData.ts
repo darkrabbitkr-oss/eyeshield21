@@ -73,16 +73,16 @@ export const PORTAL_META = {
   heroHeadline: '0.1초를 꺾는 광속의 필드.',
   heroDescription:
     '11 vs 11 실시간 미식축구 조작과 대원씨아이 정발판 고증 필살기 111종 컷인, FC 온라인식 6키 직관 조작, 완전판 15챕터(★45), 2,000km 데스마치 서바이벌, 42팀 871명 시즌 커리어를 한 번에 담았습니다.',
-  latestVersion: 'v0.3.5',
+  latestVersion: 'v0.3.6',
   dmgDirectUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.5/Eyeshield21-TacticalManager-0.3.5-arm64.dmg',
-  dmgFilename: 'Eyeshield21-TacticalManager-0.3.5-arm64.dmg',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-0.3.6-arm64.dmg',
+  dmgFilename: 'Eyeshield21-TacticalManager-0.3.6-arm64.dmg',
   winSetupUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.5/Eyeshield21-TacticalManager-Setup-0.3.5-x64.exe',
-  winSetupFilename: 'Eyeshield21-TacticalManager-Setup-0.3.5-x64.exe',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-Setup-0.3.6-x64.exe',
+  winSetupFilename: 'Eyeshield21-TacticalManager-Setup-0.3.6-x64.exe',
   apkDirectUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.5/Eyeshield21-TacticalManager-0.3.5-android.apk',
-  apkFilename: 'Eyeshield21-TacticalManager-0.3.5-android.apk',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-0.3.6-android.apk',
+  apkFilename: 'Eyeshield21-TacticalManager-0.3.6-android.apk',
   gatekeeperCmd: 'xattr -cr "/Applications/EYESHIELD 21.app"',
   legalNotice:
     '비공식 팬메이드 프로젝트 · Eyeshield 21 © Riichiro Inagaki, Yusuke Murata / Shueisha',
@@ -162,18 +162,18 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Windows EXE',
     badge: 'WINDOWS 64-BIT',
     title: 'Windows 설치형 · 포터블 (.exe)',
-    version: 'v0.3.5',
+    version: 'v0.3.6',
     sizeText: 'Setup 130 MB · Portable 119 MB',
     summary: 'Windows PC용 NSIS 설치 파일과 무설치 포터블 실행 파일 2종을 바로 다운로드할 수 있습니다.',
     image: './media/shot_gameplay.jpg',
     actionLabel: '설치형 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.5/Eyeshield21-TacticalManager-Setup-0.3.5-x64.exe',
-    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.3.5-x64.exe',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-Setup-0.3.6-x64.exe',
+    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.3.6-x64.exe',
     secondaryAction: {
       label: '포터블 받기',
-      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.5/Eyeshield21-TacticalManager-Portable-0.3.5-x64.exe',
-      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.3.5-x64.exe',
+      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-Portable-0.3.6-x64.exe',
+      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.3.6-x64.exe',
     },
     external: false,
     requirement: 'Windows 10 / 11 (x64)',
@@ -184,14 +184,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'macOS DMG',
     badge: 'MACOS APPLE SILICON',
     title: 'macOS 설치용 앱 (DMG)',
-    version: 'v0.3.5',
+    version: 'v0.3.6',
     sizeText: '131 MB',
     summary: '오프라인 폰트와 BGM, 111종 필살기 컷인이 모두 내장된 macOS(M1~M4) 전용 단독 설치 패키지입니다.',
     image: './media/shot_cutin_d4d.jpg',
     actionLabel: 'DMG 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.5/Eyeshield21-TacticalManager-0.3.5-arm64.dmg',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.3.5-arm64.dmg',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-0.3.6-arm64.dmg',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.3.6-arm64.dmg',
     external: false,
     requirement: 'macOS 12+ (Apple Silicon)',
   },
@@ -201,14 +201,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Android APK',
     badge: 'ANDROID MOBILE',
     title: 'Android 모바일 앱 (.apk)',
-    version: 'v0.3.5',
+    version: 'v0.3.6',
     sizeText: '18 MB',
     summary: '가로 모드 고정 화면에 가상 조이스틱·필살기·패스 버튼 및 햅틱 진동이 활성되는 서명 APK입니다.',
     image: './media/shot_cutin_ghost.jpg',
     actionLabel: 'APK 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.5/Eyeshield21-TacticalManager-0.3.5-android.apk',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.3.5-android.apk',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-0.3.6-android.apk',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.3.6-android.apk',
     external: false,
     requirement: 'Android 7.0+ (서명 APK)',
   },
@@ -218,7 +218,7 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Web 브라우저',
     badge: 'WEB PREVIEW',
     title: '웹 브라우저 실시간 플레이',
-    version: 'v0.3.5',
+    version: 'v0.3.6',
     sizeText: '즉시 실행',
     summary: '설치 과정 없이 모바일 세로/가로·태블릿·PC 브라우저 어디서나 FC 온라인식 6키 조작과 0.1초 광속 추격전을 즉시 플레이할 수 있습니다.',
     image: './media/shot_td.jpg',
@@ -270,9 +270,42 @@ export const PORTAL_PREVIEWS: PortalPreviewShot[] = [
 
 export const PORTAL_RELEASES: PortalRelease[] = [
   {
-    version: 'v0.3.5',
+    version: 'v0.3.6',
     date: '2026. 11. 25.',
     isLatest: true,
+    platform: 'Win .exe · macOS .dmg · Android .apk · Web',
+    sizeText: 'EXE 130 MB / DMG 131 MB / APK 18 MB',
+    downloads: [
+      {
+        label: 'macOS DMG',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-0.3.6-arm64.dmg',
+        filename: 'Eyeshield21-TacticalManager-0.3.6-arm64.dmg',
+        primary: true,
+      },
+      {
+        label: 'Win 설치형',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-Setup-0.3.6-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Setup-0.3.6-x64.exe',
+      },
+      {
+        label: 'Win 포터블',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-Portable-0.3.6-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Portable-0.3.6-x64.exe',
+      },
+      {
+        label: 'Android APK',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.6/Eyeshield21-TacticalManager-0.3.6-android.apk',
+        filename: 'Eyeshield21-TacticalManager-0.3.6-android.apk',
+      },
+    ],
+    highlights: [
+      '공격(⚡ OFFENSE) vs 수비(🛡 DEFENSE) 상황별 키 안내 전면 분리: 하단 실시간 키캡 바(작전선택 · 프리스냅 · QB패스 · 러너돌파 · 공중볼포구 · OL블로킹 vs 수비포메이션 · 수비프리스냅 · 태클/커버 · 공중볼경합 · DL패스러시), 우측 조작 가이드 서랍(현재 공격/수비 하이라이트), 모바일/터치 버튼 라벨까지 공격·수비 완전 분리',
+    ],
+  },
+  {
+    version: 'v0.3.5',
+    date: '2026. 11. 25.',
+    isLatest: false,
     platform: 'Win .exe · macOS .dmg · Android .apk · Web',
     sizeText: 'EXE 130 MB / DMG 131 MB / APK 18 MB',
     downloads: [
@@ -552,9 +585,9 @@ export const PORTAL_FAQS: PortalFaq[] = [
       '개인 빌드(Ad-hoc 서명)로 배포되어 Apple 공증 전에는 보안 경고가 뜰 수 있습니다. Applications 폴더로 옮긴 뒤 터미널에서 아래 명령어를 한 번 실행하면 바로 열립니다.',
   },
   {
-    question: '기본 경기 조작키가 궁금해요',
+    question: '공격할 때와 수비할 때 조작키가 어떻게 다른가요?',
     answer:
-      '기본 프리셋은 FC 온라인식 6키(오른손 ↑↓←→ 이동·패스 방향 지향 + 왼손 Q·W·E·A·S·D)입니다. E는 전력 질주(홀드)·타겟 순환(탭), S는 스냅·방향키 지향 짧은/총알 패스·수비 커서 전환, W는 로빙 패스·볼 보호·제트 모션, D는 다이브 태클·라인맨 불러시/파워드라이브·다이브 돌파, A는 상황 추천 필살기·플레이 좌우 반전이며, Q+방향키(←↑→↓)로 비기 슬롯 1~4번, Q+S/W/D/E로 하드카운트·오더블·타임아웃(패스버리기)·라인맨 전환이 나갑니다. 환경 설정 → 조작 키 · 게임패드 설정에서 클래식 프리셋(방향키+ZXCV · 방향키+ASDF · WASD), 개별 키 및 Xbox/DualSense 패드도 자유롭게 바꿀 수 있습니다.',
+      '기본 프리셋은 FC 온라인식 6키(오른손 ↑↓←→ + 왼손 Q·W·E·A·S·D)이며 공격/수비에 맞춰 역할이 자동 전환됩니다. [⚡ 공격 시] S=스냅·퀵/총알패스(QB)·백토스(러너), W=로빙패스(QB)·볼보호(러너)·제트모션, E=전력질주(홀드)·패스타겟 순환(탭), D=다이브 돌파·태클격파·펌프페이크, A=추천필살기·좌우반전 / [🛡 수비 시] D=다이브태클·점프 처내기/인터셉트·헛! 퍼펙트점프, S=가까운 수비수 커서 전환, W=DL 패스러셔 전환, E=추격 전력질주, A=수비 추천필살기·수비반전입니다. Q+방향키(←↑→↓)는 비기 슬롯 1~4번, Q+S/W/D/E는 하드카운트·오더블·공버리기(타임아웃)·라인맨 전환이며 환경 설정에서 개별 키·패드도 자유 변경 가능합니다.',
   },
   {
     question: 'Windows SmartScreen 또는 Android 앱 설치 경고가 뜰 때',
