@@ -43,6 +43,8 @@ export const ICONS = {
     svg('<path d="M4 6h16" /><path d="M4 12h16" /><path d="M4 18h16" />', size),
   messageSquare: (size = 18) =>
     svg('<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />', size),
+  gamepad: (size = 18) =>
+    svg('<rect x="2" y="6" width="20" height="12" rx="4" /><path d="M6 12h4" /><path d="M8 10v4" /><circle cx="15.5" cy="11" r="0.9" fill="currentColor" /><circle cx="18" cy="13" r="0.9" fill="currentColor" />', size),
   refresh: (size = 15) =>
     svg('<path d="M23 4v6h-6" /><path d="M1 20v-6h6" /><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10" /><path d="M1 14l4.64 4.36A9 9 0 0 0 20.49 15" />', size),
 };

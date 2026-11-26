@@ -139,6 +139,7 @@ function mount(): void {
 
         <nav class="nav-group" id="sidebar-nav">
           <a class="nav-link is-active" href="#discover" data-nav="discover">${ICONS.home(17)}<span>홈 · 소개</span></a>
+          <a class="nav-link" href="#controls" data-nav="controls">${ICONS.gamepad(17)}<span>조작 가이드</span></a>
           <a class="nav-link" href="#videos" data-nav="videos">${ICONS.film(17)}<span>영상관</span></a>
           <a class="nav-link" href="#editions" data-nav="editions">${ICONS.monitor(17)}<span>플랫폼</span></a>
           <a class="nav-link" href="#preview" data-nav="preview">${ICONS.grid(17)}<span>미리보기</span></a>
@@ -173,14 +174,17 @@ function mount(): void {
               <h1 class="hero-title">${PORTAL_META.heroHeadline}</h1>
               <p class="hero-copy">${PORTAL_META.heroDescription}</p>
               <div class="hero-cta-row">
-                <button class="btn-primary" id="open-hero-trailer" type="button">
+                <a class="btn-primary" href="./play/" target="_blank" rel="noopener noreferrer">
                   ${ICONS.playSolid(14)}
-                  <span>소개 영상 보기</span>
-                  <span class="tabular">00:31</span>
+                  <span>웹에서 바로 플레이</span>
+                </a>
+                <button class="btn-secondary" id="open-hero-trailer" type="button">
+                  ${ICONS.film(15)}
+                  <span>소개 영상 · 00:31</span>
                 </button>
-                <a class="btn-secondary" href="#downloads">
-                  ${ICONS.download(16)}
-                  <span>빌드 다운로드</span>
+                <a class="btn-secondary" href="#controls">
+                  ${ICONS.gamepad(16)}
+                  <span>5키 조작 가이드</span>
                 </a>
               </div>
             </div>
@@ -219,9 +223,135 @@ function mount(): void {
                 <span class="spec-value tabular">완전판 15챕터 · ★45</span>
               </div>
               <div class="spec-cell">
-                <span class="spec-label">지원 환경</span>
-                <span class="spec-value">Win · macOS · Android · Web</span>
+                <span class="spec-label">지원 환경 · 기본 조작</span>
+                <span class="spec-value">Win · Mac · APK · Web (5키)</span>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="controls" class="page-section">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">초직관 5키 조작 가이드</h2>
+              <p class="section-desc">복잡한 단축키 암기 없이 왼손 5키(Q · E · A · S · D)와 오른손 방향키만으로 공격·수비·필살기 4종을 모두 다룹니다.</p>
+            </div>
+            <a class="btn-chip" href="./play/" target="_blank" rel="noopener noreferrer">
+              <span>웹에서 바로 체험</span>${ICONS.external(13)}
+            </a>
+          </div>
+
+          <div class="ctrl-guide-deck">
+            <div class="ctrl-keycap-board" aria-label="기본 키보드 배치도">
+              <div class="ctrl-hand-col">
+                <span class="ctrl-hand-label">왼손 5키 (Q · E · A · S · D)</span>
+                <div class="keycap-rows">
+                  <div class="keycap-row">
+                    <div class="keycap-unit is-gold">
+                      <kbd>Q</kbd>
+                      <span>캐릭터·타겟 변경</span>
+                    </div>
+                    <div class="keycap-unit is-muted" title="기존 사용자용 모션/로빙 보조">
+                      <kbd>W</kbd>
+                      <span>모션 보조</span>
+                    </div>
+                    <div class="keycap-unit is-cobalt">
+                      <kbd>E</kbd>
+                      <span>달리기 + 조합</span>
+                    </div>
+                  </div>
+                  <div class="keycap-row keycap-row-shift">
+                    <div class="keycap-unit is-crimson">
+                      <kbd>A</kbd>
+                      <span>필살기 · 반전</span>
+                    </div>
+                    <div class="keycap-unit is-emerald">
+                      <kbd>S</kbd>
+                      <span>스냅 · 패스</span>
+                    </div>
+                    <div class="keycap-unit is-orange">
+                      <kbd>D</kbd>
+                      <span>돌파 · 태클</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ctrl-hand-col">
+                <span class="ctrl-hand-label">오른손 방향키 (이동 · 지향 · 비기 1~4번)</span>
+                <div class="arrow-cluster">
+                  <div class="arrow-top">
+                    <div class="keycap-unit is-arrow"><kbd>↑</kbd><span>A+↑ 비기 2</span></div>
+                  </div>
+                  <div class="arrow-bottom">
+                    <div class="keycap-unit is-arrow"><kbd>←</kbd><span>A+← 비기 1</span></div>
+                    <div class="keycap-unit is-arrow"><kbd>↓</kbd><span>A+↓ 궁극기 4</span></div>
+                    <div class="keycap-unit is-arrow"><kbd>→</kbd><span>A+→ 비기 3</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="ctrl-pillar-grid">
+              <article class="ctrl-pillar-card">
+                <div class="ctrl-pillar-head">
+                  <span class="pill pill-gold">1버튼 즉시 반응</span>
+                  <h3><kbd>Q</kbd> 캐릭터 · 타겟 변경</h3>
+                </div>
+                <p>딜레이 없이 누르는 즉시 조종 캐릭터와 타겟이 바뀝니다. 공격 스냅 전에는 <strong>QB → 세나(RB) → 몬타(WR1) → 쿠리타(C/OL)</strong> 순으로 직접 조종할 선수를 고를 수 있고, 수비 시에는 공과 가장 가까운 수비수로 즉시 전환됩니다.</p>
+              </article>
+
+              <article class="ctrl-pillar-card">
+                <div class="ctrl-pillar-head">
+                  <span class="pill pill-crimson">방향키 멀티 비기</span>
+                  <h3><kbd>A</kbd> + <kbd>← ↑ → ↓</kbd> 필살기 1~4</h3>
+                </div>
+                <p><kbd>A</kbd>만 가볍게 누르면 현재 상황에 맞는 추천 필살기(스냅 전에는 포메이션 반전)가 나가며, <kbd>A</kbd>를 누른 채 방향키 <kbd>←</kbd><kbd>↑</kbd><kbd>→</kbd><kbd>↓</kbd>를 누르면 이동 흔들림 없이 장착된 비기 1~4번을 직접 골라 터뜨립니다.</p>
+              </article>
+
+              <article class="ctrl-pillar-card">
+                <div class="ctrl-pillar-head">
+                  <span class="pill">자연스러운 달리기 변형</span>
+                  <h3><kbd>E</kbd> 달리기 중 조합 액션</h3>
+                </div>
+                <p>평소 <kbd>E</kbd>를 누르고 달리던 손 모양 그대로 다른 키를 누르면 심화 기술로 변합니다: <kbd>E+S</kbd> 로빙패스·볼보호·하드카운트, <kbd>E+D</kbd> 전력다이브·전력태클·공버리기·타임아웃, <kbd>E+Q</kbd> 라인맨(OL/DL) 직행, <kbd>E+A</kbd> 오더블.</p>
+              </article>
+            </div>
+
+            <div class="ctrl-side-compare">
+              <div class="ctrl-side-box is-offense">
+                <div class="ctrl-side-title">
+                  <span class="pill pill-gold">⚡ 공격 (OFFENSE)</span>
+                  <strong>패스 · 광속 돌파 · 콜 포 패스</strong>
+                </div>
+                <ul class="ctrl-kv-list">
+                  <li><span>스냅 전 캐릭터 직접 선택 / 인플레이 타겟 순환</span><span><kbd>Q</kbd></span></li>
+                  <li><span>스냅 · 방향키 지향 패스(홀드=총알) · 백토스 · 패스요청</span><span><kbd>S</kbd></span></li>
+                  <li><span>달리며 S = 로빙 롱패스(QB) · 볼보호/슬라이드 · 하드카운트</span><span><kbd>E+S</kbd></span></li>
+                  <li><span>돌파 · 태클 격파(연타) · 점프캐치 · 펌프페이크</span><span><kbd>D</kbd></span></li>
+                  <li><span>달리며 D = 전력 다이브 돌파 · 공 버리기(QB) · 타임아웃</span><span><kbd>E+D</kbd></span></li>
+                  <li><span>공격 라인맨(쿠리타 등 OL) 직행 전환 / 오더블</span><span><kbd>E+Q</kbd> <kbd>E+A</kbd></span></li>
+                </ul>
+              </div>
+
+              <div class="ctrl-side-box is-defense">
+                <div class="ctrl-side-title">
+                  <span class="pill pill-crimson">🛡 수비 (DEFENSE)</span>
+                  <strong>커서 전환 · 스트립 태클 · 인터셉트</strong>
+                </div>
+                <ul class="ctrl-kv-list">
+                  <li><span>공과 가장 가까운 수비 캐릭터 즉시 변경 (<kbd>S</kbd> 동일 지원)</span><span><kbd>Q</kbd></span></li>
+                  <li><span>전력 추격 · 각도 차단 달리기 (홀드)</span><span><kbd>E</kbd></span></li>
+                  <li><span>다이브 태클 · 볼 스트립 · 점프 인터셉트 · 헛! 점프</span><span><kbd>D</kbd></span></li>
+                  <li><span>달리며 D = 장거리 전력 다이브 태클 · 타임아웃(아이스 키커)</span><span><kbd>E+D</kbd></span></li>
+                  <li><span>수비 라인맨(가오우 등 DL) 패스러셔 직행 전환</span><span><kbd>E+Q</kbd> <kbd>E+S</kbd></span></li>
+                  <li><span>추천 수비 필살기(스냅 전 반전) / 수비 비기 1~4번</span><span><kbd>A</kbd> <kbd>A+←↑→↓</kbd></span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ctrl-pad-footnote">
+              <span><strong>게임패드 &amp; 모바일 완벽 지원:</strong> Xbox / DualSense 패드 자동 인식 및 개별 리매핑 지원 · 모바일/태블릿에서는 가상 조이스틱 방향 유지 + <code>필살·방향</code> 버튼 탭으로 비기 1~4번을 동일하게 발동할 수 있습니다. (환경 설정에서 클래식 방향키·WASD 프리셋도 언제든 선택 가능)</span>
             </div>
           </div>
         </section>
@@ -714,7 +844,7 @@ function mount(): void {
     },
     { rootMargin: '-22% 0px -65% 0px', threshold: 0.05 },
   );
-  ['discover', 'videos', 'editions', 'preview', 'downloads', 'board'].forEach((id) => {
+  ['discover', 'controls', 'videos', 'editions', 'preview', 'downloads', 'board'].forEach((id) => {
     const el = document.getElementById(id);
     if (el) observer.observe(el);
   });
