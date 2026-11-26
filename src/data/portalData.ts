@@ -72,7 +72,7 @@ export const PORTAL_META = {
   shortTitle: '아이실드 21',
   heroHeadline: '0.1초를 꺾는 광속의 필드.',
   heroDescription:
-    '11 vs 11 실시간 미식축구 조작과 대원씨아이 정발판 고증 필살기 111종 컷인, 초직관 5키(Q 캐릭터변경 · A+방향키 필살기 · E 달리기조합), 완전판 15챕터(★45), 2,000km 데스마치 서바이벌, 42팀 871명 시즌 커리어를 한 번에 담았습니다.',
+    '11 vs 11 실시간 미식축구 조작과 대원씨아이 정발판 고증 필살기 112종 컷인, 초직관 5키(Q 캐릭터변경 · A+방향키 필살기 · E 달리기조합), 완전판 15챕터(★45), 2,000km 데스마치 서바이벌, 42팀 871명 시즌 커리어를 한 번에 담았습니다.',
   latestVersion: 'v0.3.10',
   dmgDirectUrl:
     'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.10/Eyeshield21-TacticalManager-0.3.10-arm64.dmg',
@@ -162,18 +162,18 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Windows EXE',
     badge: 'WINDOWS 64-BIT',
     title: 'Windows 설치형 · 포터블 (.exe)',
-    version: 'v0.3.13',
+    version: 'v0.3.14',
     sizeText: 'Setup 131 MB · Portable 120 MB',
     summary: 'Windows PC용 NSIS 설치 파일과 무설치 포터블 실행 파일 2종을 바로 다운로드할 수 있습니다.',
     image: './media/shot_gameplay.jpg',
     actionLabel: '설치형 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.13/Eyeshield21-TacticalManager-Setup-0.3.13-x64.exe',
-    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.3.13-x64.exe',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.14/Eyeshield21-TacticalManager-Setup-0.3.14-x64.exe',
+    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.3.14-x64.exe',
     secondaryAction: {
       label: '포터블 받기',
-      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.13/Eyeshield21-TacticalManager-Portable-0.3.13-x64.exe',
-      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.3.13-x64.exe',
+      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.14/Eyeshield21-TacticalManager-Portable-0.3.14-x64.exe',
+      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.3.14-x64.exe',
     },
     external: false,
     requirement: 'Windows 10 / 11 (x64)',
@@ -184,14 +184,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'macOS DMG',
     badge: 'MACOS APPLE SILICON',
     title: 'macOS 설치용 앱 (DMG)',
-    version: 'v0.3.13',
+    version: 'v0.3.14',
     sizeText: '131 MB',
-    summary: '오프라인 폰트와 BGM, 111종 필살기 컷인·49종 스토리 리터칭 초상화가 내장된 macOS(M1~M4) 전용 단독 설치 패키지입니다.',
+    summary: '오프라인 폰트와 BGM, 112종 필살기 컷인·49종 스토리 리터칭 초상화가 내장된 macOS(M1~M4) 전용 단독 설치 패키지입니다.',
     image: './media/shot_cutin_d4d.jpg',
     actionLabel: 'DMG 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.13/Eyeshield21-TacticalManager-0.3.13-arm64.dmg',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.3.13-arm64.dmg',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.14/Eyeshield21-TacticalManager-0.3.14-arm64.dmg',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.3.14-arm64.dmg',
     external: false,
     requirement: 'macOS 12+ (Apple Silicon)',
   },
@@ -201,14 +201,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Android APK',
     badge: 'ANDROID MOBILE',
     title: 'Android 모바일 앱 (.apk)',
-    version: 'v0.3.13',
+    version: 'v0.3.14',
     sizeText: '19 MB',
     summary: '가로 모드 고정 화면에 가상 조이스틱·스토리 컷 스와이프 넘김 및 햅틱 진동이 활성되는 서명 APK입니다.',
     image: './media/shot_cutin_ghost.jpg',
     actionLabel: 'APK 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.13/Eyeshield21-TacticalManager-0.3.13-android.apk',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.3.13-android.apk',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.14/Eyeshield21-TacticalManager-0.3.14-android.apk',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.3.14-android.apk',
     external: false,
     requirement: 'Android 7.0+ (서명 APK)',
   },
@@ -218,7 +218,7 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Web 브라우저',
     badge: 'WEB PREVIEW',
     title: '웹 브라우저 실시간 플레이',
-    version: 'v0.3.13',
+    version: 'v0.3.14',
     sizeText: '즉시 실행',
     summary: '설치 과정 없이 모바일·태블릿·PC 브라우저 어디서나 네모칸 리터칭 일러 스토리북과 초직관 5키(Q·E·A·S·D) 경기를 즉시 플레이할 수 있습니다.',
     image: './media/shot_td.jpg',
@@ -239,7 +239,7 @@ export const PORTAL_PREVIEWS: PortalPreviewShot[] = [
   {
     id: 'cutin-ghost',
     title: '광속 돌파 · 데빌 배트 고스트',
-    caption: '0.1초 타이밍을 가르는 잔상 돌파와 111종 원작 필살기 한글 컷인 시스템',
+    caption: '0.1초 타이밍을 가르는 잔상 돌파와 112종 원작 필살기 한글 컷인 시스템',
     image: './media/shot_cutin_ghost.jpg',
   },
   {
@@ -270,9 +270,42 @@ export const PORTAL_PREVIEWS: PortalPreviewShot[] = [
 
 export const PORTAL_RELEASES: PortalRelease[] = [
   {
-    version: 'v0.3.13',
+    version: 'v0.3.14',
     date: '2026. 11. 26.',
     isLatest: true,
+    platform: 'Win .exe · macOS .dmg · Android .apk · Web',
+    sizeText: 'EXE 131 MB / DMG 131 MB / APK 19 MB',
+    downloads: [
+      {
+        label: 'macOS DMG',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.14/Eyeshield21-TacticalManager-0.3.14-arm64.dmg',
+        filename: 'Eyeshield21-TacticalManager-0.3.14-arm64.dmg',
+        primary: true,
+      },
+      {
+        label: 'Win 설치형',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.14/Eyeshield21-TacticalManager-Setup-0.3.14-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Setup-0.3.14-x64.exe',
+      },
+      {
+        label: 'Win 포터블',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.14/Eyeshield21-TacticalManager-Portable-0.3.14-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Portable-0.3.14-x64.exe',
+      },
+      {
+        label: 'Android APK',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.14/Eyeshield21-TacticalManager-0.3.14-android.apk',
+        filename: 'Eyeshield21-TacticalManager-0.3.14-android.apk',
+      },
+    ],
+    highlights: [
+      '스토리 모드 전 15챕터 원작 타임라인 필살기 순차 해금 & 초기 비기 『광속의 세계 (4초 2)』 추가(총 112종): 봄 도쿄 1회전 코이가하마전에서는 아직 배우지 않은 데빌 배트 고스트·데빌 4 디멘션 대신 원작 1권의 『광속의 세계 (4초 2)』만 발동하며, 봄 오죠전(다이브 해금 · 신은 스피어 태클만 사용) → 추계 아미노전(2,000km 데스마치 직후 데빌 배트 고스트 해금) → 쿄신전(허리케인) → 세이부전(데빌 드래곤 플라이) → 신류지전(유키미츠 옵션 루트) → 관동 오죠전(스턴건·백 파이어·트라이던트 태클) → 크리스마스 볼(데빌 4 디멘션) 순으로 엄격히 개방',
+    ],
+  },
+  {
+    version: 'v0.3.13',
+    date: '2026. 11. 26.',
+    isLatest: false,
     platform: 'Win .exe · macOS .dmg · Android .apk · Web',
     sizeText: 'EXE 131 MB / DMG 131 MB / APK 19 MB',
     downloads: [
