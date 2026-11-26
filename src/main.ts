@@ -212,7 +212,7 @@ function mount(): void {
               </div>
               <div class="spec-cell">
                 <span class="spec-label">필살기 컷인</span>
-                <span class="spec-value tabular">원작 106종</span>
+                <span class="spec-value tabular">원작 111종</span>
               </div>
               <div class="spec-cell">
                 <span class="spec-label">스토리 캠페인</span>

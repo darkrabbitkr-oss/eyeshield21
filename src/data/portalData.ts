@@ -72,17 +72,17 @@ export const PORTAL_META = {
   shortTitle: '아이실드 21',
   heroHeadline: '0.1초를 꺾는 광속의 필드.',
   heroDescription:
-    '11 vs 11 실시간 미식축구 조작과 원작 정발판 필살기 106종 컷인, 완전판 15챕터(★45), 2,000km 데스마치 서바이벌, 42팀 871명 시즌 커리어를 한 번에 담았습니다.',
-  latestVersion: 'v0.2.2',
+    '11 vs 11 실시간 미식축구 조작과 대원씨아이 정발판 고증 필살기 111종 컷인, FC 온라인식 6키 직관 조작, 완전판 15챕터(★45), 2,000km 데스마치 서바이벌, 42팀 871명 시즌 커리어를 한 번에 담았습니다.',
+  latestVersion: 'v0.2.3',
   dmgDirectUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-0.2.2-arm64.dmg',
-  dmgFilename: 'Eyeshield21-TacticalManager-0.2.2-arm64.dmg',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-0.2.3-arm64.dmg',
+  dmgFilename: 'Eyeshield21-TacticalManager-0.2.3-arm64.dmg',
   winSetupUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-Setup-0.2.2-x64.exe',
-  winSetupFilename: 'Eyeshield21-TacticalManager-Setup-0.2.2-x64.exe',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-Setup-0.2.3-x64.exe',
+  winSetupFilename: 'Eyeshield21-TacticalManager-Setup-0.2.3-x64.exe',
   apkDirectUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-0.2.2-android.apk',
-  apkFilename: 'Eyeshield21-TacticalManager-0.2.2-android.apk',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-0.2.3-android.apk',
+  apkFilename: 'Eyeshield21-TacticalManager-0.2.3-android.apk',
   gatekeeperCmd: 'xattr -cr "/Applications/EYESHIELD 21.app"',
   legalNotice:
     '비공식 팬메이드 프로젝트 · Eyeshield 21 © Riichiro Inagaki, Yusuke Murata / Shueisha',
@@ -162,18 +162,18 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Windows EXE',
     badge: 'WINDOWS 64-BIT',
     title: 'Windows 설치형 · 포터블 (.exe)',
-    version: 'v0.2.2',
+    version: 'v0.2.3',
     sizeText: 'Setup 130 MB · Portable 119 MB',
     summary: 'Windows PC용 NSIS 설치 파일과 무설치 포터블 실행 파일 2종을 바로 다운로드할 수 있습니다.',
     image: './media/shot_gameplay.jpg',
     actionLabel: '설치형 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-Setup-0.2.2-x64.exe',
-    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.2.2-x64.exe',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-Setup-0.2.3-x64.exe',
+    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.2.3-x64.exe',
     secondaryAction: {
       label: '포터블 받기',
-      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-Portable-0.2.2-x64.exe',
-      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.2.2-x64.exe',
+      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-Portable-0.2.3-x64.exe',
+      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.2.3-x64.exe',
     },
     external: false,
     requirement: 'Windows 10 / 11 (x64)',
@@ -184,14 +184,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'macOS DMG',
     badge: 'MACOS APPLE SILICON',
     title: 'macOS 설치용 앱 (DMG)',
-    version: 'v0.2.2',
+    version: 'v0.2.3',
     sizeText: '130 MB',
-    summary: '오프라인 폰트와 BGM, 106종 컷인이 모두 내장된 macOS(M1~M4) 전용 단독 설치 패키지입니다.',
+    summary: '오프라인 폰트와 BGM, 111종 필살기 컷인이 모두 내장된 macOS(M1~M4) 전용 단독 설치 패키지입니다.',
     image: './media/shot_cutin_d4d.jpg',
     actionLabel: 'DMG 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-0.2.2-arm64.dmg',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.2.2-arm64.dmg',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-0.2.3-arm64.dmg',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.2.3-arm64.dmg',
     external: false,
     requirement: 'macOS 12+ (Apple Silicon)',
   },
@@ -201,14 +201,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Android APK',
     badge: 'ANDROID MOBILE',
     title: 'Android 모바일 앱 (.apk)',
-    version: 'v0.2.2',
+    version: 'v0.2.3',
     sizeText: '18 MB',
     summary: '가로 모드 고정 화면에 가상 조이스틱·필살기·패스 버튼이 자동 활성되는 서명 APK입니다.',
     image: './media/shot_cutin_ghost.jpg',
     actionLabel: 'APK 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-0.2.2-android.apk',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.2.2-android.apk',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-0.2.3-android.apk',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.2.3-android.apk',
     external: false,
     requirement: 'Android 7.0+ (서명 APK)',
   },
@@ -218,9 +218,9 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Web 브라우저',
     badge: 'WEB PREVIEW',
     title: '웹 브라우저 실시간 플레이',
-    version: 'v0.2.2',
+    version: 'v0.2.3',
     sizeText: '즉시 실행',
-    summary: '설치 과정 없이 모바일 세로/가로·태블릿·PC 브라우저 어디서나 11 vs 11 매치와 모든 모드를 플레이할 수 있습니다.',
+    summary: '설치 과정 없이 모바일 세로/가로·태블릿·PC 브라우저 어디서나 FC 온라인식 6키 조작과 모든 모드를 즉시 플레이할 수 있습니다.',
     image: './media/shot_td.jpg',
     actionLabel: '웹으로 실행',
     actionHref: './play/',
@@ -239,13 +239,13 @@ export const PORTAL_PREVIEWS: PortalPreviewShot[] = [
   {
     id: 'cutin-ghost',
     title: '광속 돌파 · 데빌 배트 고스트',
-    caption: '0.1초 타이밍을 가르는 잔상 돌파와 106종 원작 필살기 한글 컷인 시스템',
+    caption: '0.1초 타이밍을 가르는 잔상 돌파와 111종 원작 필살기 한글 컷인 시스템',
     image: './media/shot_cutin_ghost.jpg',
   },
   {
     id: 'gameplay-11v11',
     title: '11 vs 11 실시간 전술 필드',
-    caption: 'WASD 직접 조작과 패스 버튼 [1/2/3], Z/X/C/V 필살기 슬롯의 즉각적인 손맛',
+    caption: 'FC 온라인식 6키(↑↓←→ + Q·W·E·A·S·D) 직관 조작과 방향키 지향 원버튼 패스, HD-2D 고시인성 카메라의 즉각적인 손맛',
     image: './media/shot_gameplay.jpg',
   },
   {
@@ -257,7 +257,7 @@ export const PORTAL_PREVIEWS: PortalPreviewShot[] = [
   {
     id: 'canon-story',
     title: '원작 고증 스토리 15챕터 (★45)',
-    caption: '코이가하마·조쿠토·타이요·아미노·쿄신·반도·와세다 EX까지 15챕터와 챕터별 ★3 챌린지 수록',
+    caption: '코이가하마·조쿠토·태양·아미노·쿄신·반도·와세다 EX까지 정발 고증 15챕터와 챕터별 ★3 챌린지 수록',
     image: './media/hero_story_pixel.png',
   },
   {
@@ -270,7 +270,7 @@ export const PORTAL_PREVIEWS: PortalPreviewShot[] = [
 
 export const PORTAL_RELEASES: PortalRelease[] = [
   {
-    version: 'v0.2.2',
+    version: 'v0.2.3',
     date: '2026. 11. 25.',
     isLatest: true,
     platform: 'Win .exe · macOS .dmg · Android .apk · Web',
@@ -278,26 +278,40 @@ export const PORTAL_RELEASES: PortalRelease[] = [
     downloads: [
       {
         label: 'macOS DMG',
-        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-0.2.2-arm64.dmg',
-        filename: 'Eyeshield21-TacticalManager-0.2.2-arm64.dmg',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-0.2.3-arm64.dmg',
+        filename: 'Eyeshield21-TacticalManager-0.2.3-arm64.dmg',
         primary: true,
       },
       {
         label: 'Win 설치형',
-        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-Setup-0.2.2-x64.exe',
-        filename: 'Eyeshield21-TacticalManager-Setup-0.2.2-x64.exe',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-Setup-0.2.3-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Setup-0.2.3-x64.exe',
       },
       {
         label: 'Win 포터블',
-        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-Portable-0.2.2-x64.exe',
-        filename: 'Eyeshield21-TacticalManager-Portable-0.2.2-x64.exe',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-Portable-0.2.3-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Portable-0.2.3-x64.exe',
       },
       {
         label: 'Android APK',
-        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.2/Eyeshield21-TacticalManager-0.2.2-android.apk',
-        filename: 'Eyeshield21-TacticalManager-0.2.2-android.apk',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.2.3/Eyeshield21-TacticalManager-0.2.3-android.apk',
+        filename: 'Eyeshield21-TacticalManager-0.2.3-android.apk',
       },
     ],
+    highlights: [
+      'FC 온라인식 6키(↑↓←→ + Q·W·E·A·S·D) 기본 조작 도입: 숫자키 없이 방향키로 지향하는 원버튼 패스(S 짧은/총알 · W 로빙), D 태클/불러시/파워드라이브/다이브, E 질주, A 추천 필살기, Q+방향키 비기 슬롯 1~4번 & Q+S/W/D/E 심화 전술 조합 지원',
+      '대원씨아이 정발판 전수 고증 감수 반영 & 필살기 111종 확장: 정발 팀명(태양 스핑크스 등)·선수명·대사·반도전 스코어(24-23)·무사시 복귀 시점 교정 및 18개 팀 공식 마스코트 한글명·만화 컷 격돌 연출(영문 스크림 말풍선·테이코쿠 황금+화이트 리터칭) 적용',
+      '콘고 아곤 0.11초 신속의 임펄스 초반응 시스템 및 상대 저급 필살기 실시간 카피(모방 발동) AI·컷인 구현',
+      'HD-2D 인게임 시인성 전면 개편: 비조작 선수 디밍 대비 강화, 내 조작 선수 1P 골드 비콘·진행 화살표, 볼캐리어 BALL 배지, 패스 타겟 지향선 하이라이트 및 비공식 팬게임 권리 고지 스플래시 추가',
+    ],
+  },
+  {
+    version: 'v0.2.2',
+    date: '2026. 11. 25.',
+    isLatest: false,
+    platform: 'Win .exe · macOS .dmg · Android .apk · Web',
+    sizeText: '이전 업데이트',
+    downloads: [],
     highlights: [
       '기본 조작 체계를 방향키(↑↓←→) 이동 + 알파벳(Z/X/C/V/Q 등) 스킬·전술 전용 키로 개편',
       '환경 설정 → [조작 키 · 게임패드 설정]에서 프리셋(방향키 기본 · 방향키+ASDF · WASD) 및 키보드 개별 키 자유 리매핑(충돌 자동 스왑·자동 저장) 추가',
@@ -419,7 +433,7 @@ export const PORTAL_FAQS: PortalFaq[] = [
   {
     question: '기본 경기 조작키가 궁금해요',
     answer:
-      '기본 이동은 방향키(↑↓←→), 전력 질주/다이브·스냅은 Space, 패스 타겟 지정은 숫자 1~4, 필살기 발동은 알파벳 Z/X/C/V 슬롯(자동 추천 필살기 Q, 라인맨 직접 조종 L, 프리-스냅 모션 M·반전 F·오더블 R·하드카운트 H)을 사용합니다. 환경 설정 → 조작 키 · 게임패드 설정에서 프리셋(방향키 기본 · 방향키+ASDF · WASD), 개별 키 및 Xbox/DualSense 게임패드 버튼(LB+A/B/X/Y 조합 포함)을 원하는 대로 변경할 수 있습니다.',
+      '기본 프리셋은 FC 온라인식 6키(오른손 ↑↓←→ 이동·패스 방향 지향 + 왼손 Q·W·E·A·S·D)입니다. E는 전력 질주(홀드)·타겟 순환(탭), S는 스냅·방향키 지향 짧은/총알 패스·수비 커서 전환, W는 로빙 패스·볼 보호·제트 모션, D는 다이브 태클·라인맨 불러시/파워드라이브·다이브 돌파, A는 상황 추천 필살기·플레이 좌우 반전이며, Q+방향키(←↑→↓)로 비기 슬롯 1~4번, Q+S/W/D/E로 하드카운트·오더블·타임아웃(패스버리기)·라인맨 전환이 나갑니다. 환경 설정 → 조작 키 · 게임패드 설정에서 클래식 프리셋(방향키+ZXCV · 방향키+ASDF · WASD), 개별 키 및 Xbox/DualSense 패드도 자유롭게 바꿀 수 있습니다.',
   },
   {
     question: 'Windows SmartScreen 또는 Android 앱 설치 경고가 뜰 때',
