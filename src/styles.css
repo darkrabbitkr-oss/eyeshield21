@@ -1023,6 +1023,11 @@ button {
   color: var(--ink);
 }
 
+.owner-kpi-sub {
+  font-size: 0.74rem;
+  color: var(--ink-subtle);
+}
+
 .owner-release-breakdown {
   display: flex;
   flex-direction: column;
@@ -1041,10 +1046,15 @@ button {
   flex-wrap: wrap;
 }
 
+.owner-rel-row-active {
+  border-color: rgba(247, 208, 70, 0.36);
+}
+
 .owner-rel-head {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
   font-size: 0.88rem;
   color: var(--ink);
 }
@@ -1053,6 +1063,15 @@ button {
   font-size: 0.82rem;
   color: var(--gold);
   font-family: var(--font-ui);
+}
+
+.owner-rel-total-zero {
+  color: var(--ink-subtle);
+}
+
+.owner-rel-raw {
+  font-size: 0.76rem;
+  color: var(--ink-subtle);
 }
 
 .owner-rel-chips {
@@ -1071,10 +1090,25 @@ button {
   color: var(--ink-muted);
 }
 
+.owner-asset-chip-human {
+  border-color: rgba(247, 208, 70, 0.5);
+  color: var(--ink);
+}
+
 .owner-asset-chip b {
   color: var(--ink);
   font-family: var(--font-ui);
   margin-left: 3px;
+}
+
+.owner-asset-chip-human b {
+  color: var(--gold);
+}
+
+.owner-asset-chip small {
+  margin-left: 3px;
+  font-size: 0.71rem;
+  color: var(--ink-subtle);
 }
 
 /* Downloads & FAQ */
