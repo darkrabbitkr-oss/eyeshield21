@@ -7,6 +7,10 @@ import { defineConfig, type Plugin } from 'vite';
 const RELEASE_DIR = fileURLToPath(new URL('../eyeshield21-fan/release', import.meta.url));
 
 const ALLOWED_FILES = new Set<string>([
+  'Eyeshield21-TacticalManager-0.3.13-arm64.dmg',
+  'Eyeshield21-TacticalManager-Setup-0.3.13-x64.exe',
+  'Eyeshield21-TacticalManager-Portable-0.3.13-x64.exe',
+  'Eyeshield21-TacticalManager-0.3.13-android.apk',
   'Eyeshield21-TacticalManager-0.3.12-arm64.dmg',
   'Eyeshield21-TacticalManager-Setup-0.3.12-x64.exe',
   'Eyeshield21-TacticalManager-Portable-0.3.12-x64.exe',
