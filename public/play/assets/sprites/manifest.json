@@ -1335,5 +1335,33 @@
     "frameHeight": 32,
     "cols": 4,
     "rows": 6
+  },
+  "apollo": {
+    "path": "/assets/sprites/apollo.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "doburoku": {
+    "path": "/assets/sprites/doburoku.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "mamori": {
+    "path": "/assets/sprites/mamori.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "suzuna": {
+    "path": "/assets/sprites/suzuna.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
   }
 }

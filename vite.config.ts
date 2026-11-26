@@ -7,6 +7,22 @@ import { defineConfig, type Plugin } from 'vite';
 const RELEASE_DIR = fileURLToPath(new URL('../eyeshield21-fan/release', import.meta.url));
 
 const ALLOWED_FILES = new Set<string>([
+  'Eyeshield21-TacticalManager-0.3.17-arm64.dmg',
+  'Eyeshield21-TacticalManager-Setup-0.3.17-x64.exe',
+  'Eyeshield21-TacticalManager-Portable-0.3.17-x64.exe',
+  'Eyeshield21-TacticalManager-0.3.17-android.apk',
+  'Eyeshield21-TacticalManager-0.3.16-arm64.dmg',
+  'Eyeshield21-TacticalManager-Setup-0.3.16-x64.exe',
+  'Eyeshield21-TacticalManager-Portable-0.3.16-x64.exe',
+  'Eyeshield21-TacticalManager-0.3.16-android.apk',
+  'Eyeshield21-TacticalManager-0.3.15-arm64.dmg',
+  'Eyeshield21-TacticalManager-Setup-0.3.15-x64.exe',
+  'Eyeshield21-TacticalManager-Portable-0.3.15-x64.exe',
+  'Eyeshield21-TacticalManager-0.3.15-android.apk',
+  'Eyeshield21-TacticalManager-0.3.14-arm64.dmg',
+  'Eyeshield21-TacticalManager-Setup-0.3.14-x64.exe',
+  'Eyeshield21-TacticalManager-Portable-0.3.14-x64.exe',
+  'Eyeshield21-TacticalManager-0.3.14-android.apk',
   'Eyeshield21-TacticalManager-0.3.13-arm64.dmg',
   'Eyeshield21-TacticalManager-Setup-0.3.13-x64.exe',
   'Eyeshield21-TacticalManager-Portable-0.3.13-x64.exe',
