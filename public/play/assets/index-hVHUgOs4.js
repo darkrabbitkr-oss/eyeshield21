@@ -2081,9 +2081,9 @@ var To=Object.defineProperty;var Io=(e,s,a)=>s in e?To(e,s,{enumerable:!0,config
           ${t==="YOUTUBE"?`
             <div class="kb-group" style="margin-top:10px;">
               <div class="kb-group-title">🎸 아이실드 21 애니메이션 OST 프리셋 (12선)</div>
-              <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-top:6px;">
+              <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:5px;margin-top:6px;">
                 ${Vt.map(U=>{const z=this.ytPlayer.isActive()&&this.ytPlayer.getCurrentVideoId()===U.videoId;return`
-                    <button type="button" class="drawer-seg-btn ${z?"active":""}" data-yt-preset="${j(U.videoId)}" data-yt-label="${j(U.titleKr)}" style="text-align:left;padding:6px 8px;line-height:1.25;">
+                    <button type="button" class="drawer-seg-btn ${z?"active":""}" data-yt-preset="${j(U.videoId)}" data-yt-label="${j(U.titleKr)}" style="min-width:0;width:100%;box-sizing:border-box;text-align:left;padding:6px 8px;line-height:1.25;">
                       <div style="font-size:10px;opacity:0.78;">[${j(U.tag)}] ${z?"▶ 재생 중":""}</div>
                       <div style="font-weight:700;font-size:11.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${j(U.titleKr)}</div>
                     </button>
@@ -2097,12 +2097,12 @@ var To=Object.defineProperty;var Io=(e,s,a)=>s in e?To(e,s,{enumerable:!0,config
           `:t==="SYNTH"?`
             <div class="kb-group" style="margin-top:10px;">
               <div class="kb-group-title">🎵 내장 사운드트랙 쥬크박스 (9곡 · 자동/수동 고정)</div>
-              <button type="button" class="drawer-seg-btn ${((v=this.sound)==null?void 0:v.getPinnedTheme())===null?"active":""}" data-pin-bgm="AUTO" style="width:100%;margin:6px 0 6px;padding:6px 10px;">
-                ⚡ 경기·스토리 상황별 자동 전환 ${((k=this.sound)==null?void 0:k.getPinnedTheme())===null?`(현재: ${j(((E=this.sound)==null?void 0:E.getCurrentTrackInfo().titleKr)??"")})`:""}
+              <button type="button" class="drawer-seg-btn ${((v=this.sound)==null?void 0:v.getPinnedTheme())===null?"active":""}" data-pin-bgm="AUTO" style="min-width:0;width:100%;box-sizing:border-box;margin:6px 0 6px;padding:6px 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+                ⚡ 경기·스토리 상황별 자동 전환 ${((k=this.sound)==null?void 0:k.getPinnedTheme())===null?`(${j(((E=this.sound)==null?void 0:E.getCurrentTrackInfo().titleKr)??"")})`:""}
               </button>
-              <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;">
+              <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:5px;">
                 ${la.map(U=>{var ee,pe;const z=((ee=this.sound)==null?void 0:ee.getPinnedTheme())===U.theme,ie=((pe=this.sound)==null?void 0:pe.getEffectiveTheme())===U.theme;return`
-                    <button type="button" class="drawer-seg-btn ${z?"active":""}" data-pin-bgm="${U.theme}" style="text-align:left;padding:6px 8px;line-height:1.25;">
+                    <button type="button" class="drawer-seg-btn ${z?"active":""}" data-pin-bgm="${U.theme}" style="min-width:0;width:100%;box-sizing:border-box;text-align:left;padding:6px 8px;line-height:1.25;">
                       <div style="font-size:10px;opacity:0.78;">${j(U.tag)} · ${U.bpm} BPM ${ie?"▶":""}</div>
                       <div style="font-weight:700;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${j(U.titleKr)}</div>
                     </button>
