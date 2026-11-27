@@ -4,7 +4,7 @@ const BOARD_REPO = 'darkrabbitkr-oss/eyeshield21';
 const ISSUES_API_URL = `https://api.github.com/repos/${BOARD_REPO}/issues?state=all&per_page=30`;
 const ISSUES_NEW_URL = `https://github.com/${BOARD_REPO}/issues/new`;
 const ISSUES_LIST_URL = `https://github.com/${BOARD_REPO}/issues`;
-const YOUTUBE_COMMENT_URL = 'https://youtu.be/3Z5S5-ZPR2E';
+const YOUTUBE_COMMENT_URL = 'https://youtu.be/pjWFmug5nX4';
 const CACHE_KEY = 'dr-es21-board-cache-v1';
 const CACHE_TTL_MS = 60_000;
 
