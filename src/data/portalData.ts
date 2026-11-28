@@ -81,16 +81,16 @@ export const PORTAL_META = {
   heroHeadline: '0.1초를 꺾는 광속의 필드.',
   heroDescription:
     '11 vs 11 실시간 미식축구와 캐릭터별 전술 이해도(Football IQ) 6성향 AI, 대원 정발 리마스터 112종 사쿠가 컷인, 내장 9곡 스포츠 록 BGM & 애니 OST 12선 쥬크박스, 1~37권 전면 개편 15챕터 만화 스토리(★45), 42팀 871명 감독 커리어를 한 번에 담았습니다.',
-  latestVersion: 'v0.3.21',
+  latestVersion: 'v0.3.22',
   dmgDirectUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.21/Eyeshield21-TacticalManager-0.3.21-arm64.dmg',
-  dmgFilename: 'Eyeshield21-TacticalManager-0.3.21-arm64.dmg',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-0.3.22-arm64.dmg',
+  dmgFilename: 'Eyeshield21-TacticalManager-0.3.22-arm64.dmg',
   winSetupUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.21/Eyeshield21-TacticalManager-Setup-0.3.21-x64.exe',
-  winSetupFilename: 'Eyeshield21-TacticalManager-Setup-0.3.21-x64.exe',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-Setup-0.3.22-x64.exe',
+  winSetupFilename: 'Eyeshield21-TacticalManager-Setup-0.3.22-x64.exe',
   apkDirectUrl:
-    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.21/Eyeshield21-TacticalManager-0.3.21-android.apk',
-  apkFilename: 'Eyeshield21-TacticalManager-0.3.21-android.apk',
+    'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-0.3.22-android.apk',
+  apkFilename: 'Eyeshield21-TacticalManager-0.3.22-android.apk',
   gatekeeperCmd: 'xattr -cr "/Applications/EYESHIELD 21.app"',
   legalNotice:
     '비공식 팬메이드 프로젝트 · Eyeshield 21 © Riichiro Inagaki, Yusuke Murata / Shueisha',
@@ -131,11 +131,11 @@ export const PORTAL_SYSTEMS: PortalSystemCard[] = [
   },
   {
     id: 'hybrid-soundtrack',
-    pillLabel: '오디오 · 9곡 BGM + OST 12선',
+    pillLabel: '오디오 · 즉시 인게임 재생',
     pillTone: 'crimson',
-    title: '스포츠 록 9곡 & 애니 OST 하이브리드 쥬크박스',
+    title: '스포츠 록 9곡 & 애니 OST · YouTube 즉시 재생',
     description:
-      '176 BPM 광속 질주 록·128 BPM 청춘 연대기·164 BPM 데스마치 서바이벌 등 장면별로 작곡된 내장 스테레오 BGM 9곡을 즉시 골라 들을 수 있으며, Breakthrough·BLAZE LINE 등 애니메이션 명곡 12선 및 커스텀 유튜브 배경음악 연동까지 갖췄습니다.',
+      '176 BPM 광속 질주 록·128 BPM 청춘 연대기·164 BPM 데스마치 등 내장 스테레오 BGM 9곡은 물론, Breakthrough·BLAZE LINE·flower 등 애니 명곡 12선과 원하는 YouTube 링크를 붙여넣기만 해도 외부 창 없이 인게임에서 즉시 재생됩니다.',
   },
   {
     id: 'endgame-modes',
@@ -221,18 +221,18 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Windows EXE',
     badge: 'WINDOWS 64-BIT',
     title: 'Windows 설치형 · 포터블 (.exe)',
-    version: 'v0.3.21',
+    version: 'v0.3.22',
     sizeText: 'Setup 134 MB · Portable 123 MB',
     summary: 'Windows PC용 NSIS 설치 파일과 무설치 포터블 실행 파일 2종을 바로 다운로드할 수 있습니다.',
     image: './media/shot_gameplay.jpg',
     actionLabel: '설치형 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.21/Eyeshield21-TacticalManager-Setup-0.3.21-x64.exe',
-    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.3.21-x64.exe',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-Setup-0.3.22-x64.exe',
+    downloadFilename: 'Eyeshield21-TacticalManager-Setup-0.3.22-x64.exe',
     secondaryAction: {
       label: '포터블 받기',
-      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.21/Eyeshield21-TacticalManager-Portable-0.3.21-x64.exe',
-      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.3.21-x64.exe',
+      href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-Portable-0.3.22-x64.exe',
+      downloadFilename: 'Eyeshield21-TacticalManager-Portable-0.3.22-x64.exe',
     },
     external: false,
     requirement: 'Windows 10 / 11 (x64)',
@@ -243,14 +243,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'macOS DMG',
     badge: 'MACOS APPLE SILICON',
     title: 'macOS 설치용 앱 (DMG)',
-    version: 'v0.3.21',
+    version: 'v0.3.22',
     sizeText: '134 MB',
-    summary: '오프라인 폰트와 9곡 스테레오 BGM, 캐릭터별 전술 이해도 AI·112종 사쿠가 컷인·49종 스토리 초상화가 내장된 macOS(M1~M4) 전용 단독 설치 패키지입니다.',
+    summary: '오프라인 폰트·9곡 스테레오 BGM·YouTube 인게임 즉시 재생 브리지·전술 이해도 AI·112종 사쿠가 컷인이 내장된 macOS(M1~M4) 전용 단독 설치 패키지입니다.',
     image: './media/shot_cutin_d4d.jpg',
     actionLabel: 'DMG 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.21/Eyeshield21-TacticalManager-0.3.21-arm64.dmg',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.3.21-arm64.dmg',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-0.3.22-arm64.dmg',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.3.22-arm64.dmg',
     external: false,
     requirement: 'macOS 12+ (Apple Silicon)',
   },
@@ -260,14 +260,14 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Android APK',
     badge: 'ANDROID MOBILE',
     title: 'Android 모바일 앱 (.apk)',
-    version: 'v0.3.21',
+    version: 'v0.3.22',
     sizeText: '22 MB',
     summary: '가로 모드 고정 화면에 가상 조이스틱·스토리 컷 스와이프 넘김 및 햅틱 진동이 활성되는 서명 APK입니다.',
     image: './media/shot_cutin_ghost.jpg',
     actionLabel: 'APK 받기',
     actionHref:
-      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.21/Eyeshield21-TacticalManager-0.3.21-android.apk',
-    downloadFilename: 'Eyeshield21-TacticalManager-0.3.21-android.apk',
+      'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-0.3.22-android.apk',
+    downloadFilename: 'Eyeshield21-TacticalManager-0.3.22-android.apk',
     external: false,
     requirement: 'Android 7.0+ (서명 APK)',
   },
@@ -277,9 +277,9 @@ export const PORTAL_EDITIONS: PortalEdition[] = [
     platformLabel: 'Web 브라우저',
     badge: 'WEB PREVIEW',
     title: '웹 브라우저 실시간 플레이',
-    version: 'v0.3.21',
+    version: 'v0.3.22',
     sizeText: '즉시 실행',
-    summary: '설치 과정 없이 모바일·태블릿·PC 브라우저 어디서나 캐릭터별 전술 이해도(Football IQ) AI · 9곡 BGM · 112종 리마스터 컷인과 초직관 5키 경기를 즉시 플레이할 수 있습니다.',
+    summary: '설치 과정 없이 모바일·태블릿·PC 브라우저 어디서나 전술 이해도(Football IQ) AI · 9곡 BGM · YouTube OST 즉시 재생과 초직관 5키 경기를 바로 즐길 수 있습니다.',
     image: './media/shot_td.jpg',
     actionLabel: '웹으로 실행',
     actionHref: './play/',
@@ -321,17 +321,51 @@ export const PORTAL_PREVIEWS: PortalPreviewShot[] = [
   },
   {
     id: 'key-visual',
-    title: '데이몬 데빌 배츠 키비주얼 (v0.3.21)',
-    caption: '원작 감성을 픽셀 스타일로 다듬은 v0.3.21 메인 타이틀 화면과 5대 게임 모드 포털',
+    title: '데이몬 데빌 배츠 키비주얼 (v0.3.22)',
+    caption: '원작 감성을 픽셀 스타일로 다듬은 v0.3.22 메인 타이틀 화면과 5대 게임 모드 포털',
     image: './media/shot_start.jpg',
   },
 ];
 
 export const PORTAL_RELEASES: PortalRelease[] = [
   {
-    version: 'v0.3.21',
+    version: 'v0.3.22',
     date: '2026. 11. 27.',
     isLatest: true,
+    platform: 'Win .exe · macOS .dmg · Android .apk · Web',
+    sizeText: 'EXE 134 MB / DMG 134 MB / APK 22 MB',
+    downloads: [
+      {
+        label: 'macOS DMG',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-0.3.22-arm64.dmg',
+        filename: 'Eyeshield21-TacticalManager-0.3.22-arm64.dmg',
+        primary: true,
+      },
+      {
+        label: 'Win 설치형',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-Setup-0.3.22-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Setup-0.3.22-x64.exe',
+      },
+      {
+        label: 'Win 포터블',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-Portable-0.3.22-x64.exe',
+        filename: 'Eyeshield21-TacticalManager-Portable-0.3.22-x64.exe',
+      },
+      {
+        label: 'Android APK',
+        href: 'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.22/Eyeshield21-TacticalManager-0.3.22-android.apk',
+        filename: 'Eyeshield21-TacticalManager-0.3.22-android.apk',
+      },
+    ],
+    highlights: [
+      'YouTube 링크 & 애니메이션 OST 인게임 즉시 재생 개편: 설치형 데스크톱 앱(macOS/Windows)에서도 외부 브라우저 없이 인게임 백그라운드 오디오로 곧바로 재생되며, 주소 붙여넣기(Paste)·엔터(Enter) 즉시 재생 및 전체/BGM 볼륨 슬라이더 실시간 제어 지원',
+      '아이실드 21 애니메이션 OST 프리셋 12선 전곡 재정비: Breakthrough, Innocence, Dang Dang, BLAZE LINE, 불꽃의 러닝백, Be Free!, Blaze Away, Goal, Run to Win!, flower 등 12곡 모두 즉시 재생·임베드 허용 음원으로 교체',
+    ],
+  },
+  {
+    version: 'v0.3.21',
+    date: '2026. 11. 27.',
+    isLatest: false,
     platform: 'Win .exe · macOS .dmg · Android .apk · Web',
     sizeText: 'EXE 134 MB / DMG 134 MB / APK 22 MB',
     downloads: [
@@ -1144,9 +1178,9 @@ export const PORTAL_FAQS: PortalFaq[] = [
       '모든 선수에게 천재 지략가·야생 본능형·노련한 실전파·실전 성장형·단세포 직진형·풋볼 초짜 6성향 전술 이해도가 부여되어, 경기 중 트릭/펌프페이크 간파·헛걸음, 예측 추격 각도, 빈 공간 옵션 루트, 기습 블리츠 차단이 캐릭터답게 달라집니다. 스토리 진행이나 [스쿼드 · 트레이닝 → 전술 미팅] 훈련으로 이해도를 직접 육성할 수 있으며, 경기 상단 [감독 지휘 (AI)] 토글을 켜면 전 포지션을 AI에게 맡기고 플레이콜에만 집중할 수도 있습니다.',
   },
   {
-    question: '배경음악(BGM) 변경이나 애니메이션 OST 재생도 가능한가요?',
+    question: '배경음악(BGM) 변경이나 애니메이션 OST · 유튜브 음악 재생은 어떻게 하나요?',
     answer:
-      '[환경 설정 → 오디오] 탭에서 176 BPM 광속 질주 록·청춘 연대기·데스마치 등 내장 스테레오 스포츠 록 BGM 9곡을 즉시 골라 듣거나 장면별 자동 전환으로 둘 수 있습니다. 또한 Breakthrough·BLAZE LINE 등 애니메이션 명곡 12선 프리셋 및 원하는 유튜브 URL 배경음악 재생도 지원합니다.',
+      '[환경 설정 → 오디오] 탭에서 내장 스테레오 스포츠 록 BGM 9곡을 골라 듣거나, 상단 YouTube 입력칸에 원하는 유튜브 주소를 붙여넣기(또는 Enter)만 하면 외부 창을 열지 않고 인게임에서 곧바로 배경음악으로 재생됩니다. Breakthrough·BLAZE LINE·flower 등 애니메이션 명곡 12선도 원클릭으로 즉시 재생되며 BGM 볼륨 슬라이더와 실시간 연동됩니다.',
   },
   {
     question: '공격할 때와 수비할 때 조작키가 어떻게 다른가요?',
