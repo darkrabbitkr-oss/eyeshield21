@@ -4,6 +4,7 @@ import {
   PORTAL_META,
   PORTAL_PREVIEWS,
   PORTAL_RELEASES,
+  PORTAL_SYSTEMS,
   PORTAL_VIDEOS,
   type PortalVideo,
 } from './data/portalData';
@@ -139,6 +140,7 @@ function mount(): void {
 
         <nav class="nav-group" id="sidebar-nav">
           <a class="nav-link is-active" href="#discover" data-nav="discover">${ICONS.home(17)}<span>홈 · 소개</span></a>
+          <a class="nav-link" href="#systems" data-nav="systems">${ICONS.cube(17)}<span>핵심 시스템</span></a>
           <a class="nav-link" href="#controls" data-nav="controls">${ICONS.gamepad(17)}<span>조작 가이드</span></a>
           <a class="nav-link" href="#videos" data-nav="videos">${ICONS.film(17)}<span>영상관</span></a>
           <a class="nav-link" href="#editions" data-nav="editions">${ICONS.monitor(17)}<span>플랫폼</span></a>
@@ -199,7 +201,7 @@ function mount(): void {
                   <div class="app-meta-line">
                     <span class="pill pill-crimson tabular">${PORTAL_META.latestVersion}</span>
                     <span class="pill pill-gold tabular" id="owner-total-pill" hidden></span>
-                    <span>실시간 미식축구 전술 팬게임 · 한국어 정발판 고증</span>
+                    <span>실시간 미식축구 전술 팬게임 · 전술 이해도 6성향 AI · 정발 리마스터 112종 컷인</span>
                   </div>
                 </div>
               </div>
@@ -211,22 +213,54 @@ function mount(): void {
 
             <div class="specs-bar">
               <div class="spec-cell">
-                <span class="spec-label">등장 팀 / 로스터</span>
-                <span class="spec-value tabular">42팀 · 871명</span>
+                <span class="spec-label">로스터 · 전술 AI</span>
+                <span class="spec-value tabular">42팀 · 871명 (6성향 IQ)</span>
               </div>
               <div class="spec-cell">
-                <span class="spec-label">필살기 컷인</span>
-                <span class="spec-value tabular">원작 112종</span>
+                <span class="spec-label">사쿠가 필살기 컷인</span>
+                <span class="spec-value tabular">정발 리마스터 112종</span>
               </div>
               <div class="spec-cell">
-                <span class="spec-label">스토리 캠페인</span>
-                <span class="spec-value tabular">완전판 15챕터 · ★45</span>
+                <span class="spec-label">만화 스토리 · 사운드</span>
+                <span class="spec-value tabular">개편 15챕터 · 9곡 BGM</span>
               </div>
               <div class="spec-cell">
                 <span class="spec-label">지원 환경 · 기본 조작</span>
                 <span class="spec-value">Win · Mac · APK · Web (5키)</span>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section id="systems" class="page-section">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">핵심 시스템 · 5대 게임 모드</h2>
+              <p class="section-desc">캐릭터마다 다른 두뇌 회전부터 대원 정발 리마스터 112종 컷인, 9곡 스포츠 록 BGM, 15챕터 만화 스토리와 42팀 감독 커리어까지 최신 빌드의 주요 특징입니다.</p>
+            </div>
+            <a class="btn-chip" href="#downloads">
+              <span>${PORTAL_META.latestVersion} 패치 내역</span>${ICONS.arrowRight(13)}
+            </a>
+          </div>
+
+          <div class="ctrl-pillar-grid">
+            ${PORTAL_SYSTEMS.map((sys) => {
+              const pillCls =
+                sys.pillTone === 'crimson'
+                  ? 'pill pill-crimson'
+                  : sys.pillTone === 'gold'
+                    ? 'pill pill-gold'
+                    : 'pill';
+              return `
+                <article class="ctrl-pillar-card">
+                  <div class="ctrl-pillar-head">
+                    <span class="${pillCls}">${sys.pillLabel}</span>
+                    <h3>${sys.title}</h3>
+                  </div>
+                  <p>${sys.description}</p>
+                </article>
+              `;
+            }).join('')}
           </div>
         </section>
 
@@ -844,7 +878,7 @@ function mount(): void {
     },
     { rootMargin: '-22% 0px -65% 0px', threshold: 0.05 },
   );
-  ['discover', 'controls', 'videos', 'editions', 'preview', 'downloads', 'board'].forEach((id) => {
+  ['discover', 'systems', 'controls', 'videos', 'editions', 'preview', 'downloads', 'board'].forEach((id) => {
     const el = document.getElementById(id);
     if (el) observer.observe(el);
   });

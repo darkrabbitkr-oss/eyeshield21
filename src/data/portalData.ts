@@ -67,12 +67,20 @@ export interface PortalFaq {
   answer: string;
 }
 
+export interface PortalSystemCard {
+  id: string;
+  pillLabel: string;
+  pillTone: 'gold' | 'crimson' | 'default';
+  title: string;
+  description: string;
+}
+
 export const PORTAL_META = {
   gameTitle: '아이실드 21 : 택티컬 풋볼 매니저',
   shortTitle: '아이실드 21',
   heroHeadline: '0.1초를 꺾는 광속의 필드.',
   heroDescription:
-    '11 vs 11 실시간 미식축구 조작과 대원씨아이 정발판 고증 필살기 112종 컷인, 초직관 5키(Q 캐릭터변경 · A+방향키 필살기 · E 달리기조합), 완전판 15챕터(★45), 2,000km 데스마치 서바이벌, 42팀 871명 시즌 커리어를 한 번에 담았습니다.',
+    '11 vs 11 실시간 미식축구와 캐릭터별 전술 이해도(Football IQ) 6성향 AI, 대원 정발 리마스터 112종 사쿠가 컷인, 내장 9곡 스포츠 록 BGM & 애니 OST 12선 쥬크박스, 1~37권 전면 개편 15챕터 만화 스토리(★45), 42팀 871명 감독 커리어를 한 번에 담았습니다.',
   latestVersion: 'v0.3.21',
   dmgDirectUrl:
     'https://github.com/darkrabbitkr-oss/eyeshield21/releases/download/v0.3.21/Eyeshield21-TacticalManager-0.3.21-arm64.dmg',
@@ -88,6 +96,57 @@ export const PORTAL_META = {
     '비공식 팬메이드 프로젝트 · Eyeshield 21 © Riichiro Inagaki, Yusuke Murata / Shueisha',
 };
 
+export const PORTAL_SYSTEMS: PortalSystemCard[] = [
+  {
+    id: 'football-iq-ai',
+    pillLabel: 'NEW · 전술 이해도 6성향 AI',
+    pillTone: 'crimson',
+    title: '살아 숨 쉬는 캐릭터별 두뇌 격차',
+    description:
+      '천재 지략가(히루마·유키미츠·키드·마루코)는 트릭·펌프페이크를 0.26초 만에 간파하고 예측 길목 차단과 빈 공간 옵션 루트를 자동 수행합니다. 반면 단세포 직진형(오타와라·가오우)과 풋볼 초짜(타키·봄 세나)는 페이크에 헛걸음하거나 지각 출발하며, 스토리 진행과 전술 미팅 훈련으로 이해도가 성장합니다.',
+  },
+  {
+    id: 'sakuga-cutin-112',
+    pillLabel: '사쿠가 연출 · 112종 완비',
+    pillTone: 'gold',
+    title: '정발 리마스터 대사 & 광속 필드 VFX',
+    description:
+      '대원씨아이 정발 단행본 명대사와 캐릭터 고유 어조로 112종 필살기 대사를 전면 리마스터했습니다. 소속팀 배너·방사형 만화 집중선·번개 레일 컷인과 함께, 필드 위 4~5중 속도 잔상·V-웨이크 충격파·데빌 레이저 이중 나선 탄도가 실시간으로 터집니다.',
+  },
+  {
+    id: 'canon-story-15',
+    pillLabel: '스토리 캠페인 · ★45',
+    pillTone: 'default',
+    title: '정발 1~37권 전면 개편 만화 스토리 15챕터',
+    description:
+      '원작을 모르는 플레이어도 각 경기의 이유와 인물 관계를 단숨에 이해하도록 15개 전 챕터 대본을 새로 썼습니다. 49종 정사각 도트 초상화, 반도전까지 지켜지는 세나 정체 보안, 팬서·무사시·유키미츠 교체 투입, 히루마 실전 코칭과 37권 대학·실업 에필로그까지 수록했습니다.',
+  },
+  {
+    id: 'dynasty-career',
+    pillLabel: '감독 커리어 · 42팀 871명',
+    pillTone: 'gold',
+    title: '시즌 다이나스티 & 비기 전수 · 전술 육성',
+    description:
+      '42개 고교·대표팀 871명 풀 로스터로 봄 대회→여름 합숙→추계→관동→크리스마스 볼을 제패하세요. 졸업·신입 스카우트·히루마 협박 수첩 영입, 1:1 비기 전수 멘토링, 벤치·40야드·전술 미팅 3대 훈련과 풀오토 감독 지휘(AI) 모드를 모두 지원합니다.',
+  },
+  {
+    id: 'hybrid-soundtrack',
+    pillLabel: '오디오 · 9곡 BGM + OST 12선',
+    pillTone: 'crimson',
+    title: '스포츠 록 9곡 & 애니 OST 하이브리드 쥬크박스',
+    description:
+      '176 BPM 광속 질주 록·128 BPM 청춘 연대기·164 BPM 데스마치 서바이벌 등 장면별로 작곡된 내장 스테레오 BGM 9곡을 즉시 골라 들을 수 있으며, Breakthrough·BLAZE LINE 등 애니메이션 명곡 12선 및 커스텀 유튜브 배경음악 연동까지 갖췄습니다.',
+  },
+  {
+    id: 'endgame-modes',
+    pillLabel: '엔드게임 · 5대 모드',
+    pillTone: 'default',
+    title: '클러치 12선 · 2,000km 데스마치 · 일일 챌린지',
+    description:
+      '원작 절체절명 승부처를 재현한 S/A/B 랭크 클러치 시나리오 12종, 피로도를 관리하며 42팀 연전에 도전하는 2,000km 데스마치 서바이벌(보급 특전 8종), 매일 시드가 바뀌는 일일 전술 챌린지, 112종 도감 & 30종 업적으로 끝없는 도전을 이어갑니다.',
+  },
+];
+
 /**
  * 유튜브 업로드 후 `youtubeId`만 입력하면(예: youtubeId: 'QGyBzfS-se0')
  * 로컬 영상 대신 유튜브 플레이어로 자동 전환됩니다.
@@ -95,7 +154,7 @@ export const PORTAL_META = {
 export const PORTAL_VIDEOS: PortalVideo[] = [
   {
     id: 'trailer-1080p',
-    title: '공식 트레일러 v0.3.18 (16:9 풀HD)',
+    title: '공식 대표 트레일러 (16:9 풀HD)',
     subtitle: '초직관 5키(Q·E·A·S·D) 11 vs 11 실플레이 · 정발 112종 컷인 · 1~37권 전면 개편 스토리 15챕터 & 크리스마스 볼 터치다운',
     duration: '00:31',
     aspect: '16/9',
@@ -107,7 +166,7 @@ export const PORTAL_VIDEOS: PortalVideo[] = [
   },
   {
     id: 'trailer-shorts',
-    title: '유튜브 쇼츠 세로 프리뷰 v0.3.18 (9:16)',
+    title: '유튜브 쇼츠 세로 프리뷰 (9:16)',
     subtitle: '모바일 쇼츠 비율에 맞춰 초직관 5키 실플레이, 112종 한글 컷인, 개편 스토리 만화 컷을 압축 편집한 세로 영상',
     duration: '00:31',
     aspect: '9/16',
@@ -1080,14 +1139,24 @@ export const PORTAL_RELEASES: PortalRelease[] = [
 
 export const PORTAL_FAQS: PortalFaq[] = [
   {
-    question: 'macOS에서 "손상된 앱" 또는 확인되지 않은 개발자 경고가 뜰 때',
+    question: '캐릭터별 "전술 이해도(Football IQ)"와 감독 지휘(AI) 모드는 어떻게 작동하나요?',
     answer:
-      '개인 빌드(Ad-hoc 서명)로 배포되어 Apple 공증 전에는 보안 경고가 뜰 수 있습니다. Applications 폴더로 옮긴 뒤 터미널에서 아래 명령어를 한 번 실행하면 바로 열립니다.',
+      '모든 선수에게 천재 지략가·야생 본능형·노련한 실전파·실전 성장형·단세포 직진형·풋볼 초짜 6성향 전술 이해도가 부여되어, 경기 중 트릭/펌프페이크 간파·헛걸음, 예측 추격 각도, 빈 공간 옵션 루트, 기습 블리츠 차단이 캐릭터답게 달라집니다. 스토리 진행이나 [스쿼드 · 트레이닝 → 전술 미팅] 훈련으로 이해도를 직접 육성할 수 있으며, 경기 상단 [감독 지휘 (AI)] 토글을 켜면 전 포지션을 AI에게 맡기고 플레이콜에만 집중할 수도 있습니다.',
+  },
+  {
+    question: '배경음악(BGM) 변경이나 애니메이션 OST 재생도 가능한가요?',
+    answer:
+      '[환경 설정 → 오디오] 탭에서 176 BPM 광속 질주 록·청춘 연대기·데스마치 등 내장 스테레오 스포츠 록 BGM 9곡을 즉시 골라 듣거나 장면별 자동 전환으로 둘 수 있습니다. 또한 Breakthrough·BLAZE LINE 등 애니메이션 명곡 12선 프리셋 및 원하는 유튜브 URL 배경음악 재생도 지원합니다.',
   },
   {
     question: '공격할 때와 수비할 때 조작키가 어떻게 다른가요?',
     answer:
       '왼손 5키(Q·E·A·S·D)와 방향키만으로 공수 모두 똑같이 조작합니다! [Q]=캐릭터·타겟 즉시 변경(공격 스냅 전 QB→세나→몬타→쿠리타 순환 / 수비 최단거리 선수 전환), [A]=추천 필살기(프리스냅 반전) + [A+←↑→↓]=비기 1~4번 발동, [E]=달리기(홀드) + E 누른 채 [S]=로빙패스·볼보호·하드카운트 / [D]=전력 다이브·태클·공버리기·타임아웃 / [Q]=라인맨(OL·DL) 전환 / [A]=오더블, [S]=스냅·패스·백토스·패스요청(수비 보조전환), [D]=돌파·점프캐치·페이크(수비 태클·점프인터셉트·헛! 점프).',
+  },
+  {
+    question: 'macOS에서 "손상된 앱" 또는 확인되지 않은 개발자 경고가 뜰 때',
+    answer:
+      '개인 빌드(Ad-hoc 서명)로 배포되어 Apple 공증 전에는 보안 경고가 뜰 수 있습니다. Applications 폴더로 옮긴 뒤 터미널에서 아래 명령어를 한 번 실행하면 바로 열립니다.',
   },
   {
     question: 'Windows SmartScreen 또는 Android 앱 설치 경고가 뜰 때',
