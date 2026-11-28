@@ -1,0 +1,1367 @@
+{
+  "sena": {
+    "path": "/assets/sprites/sena.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hiruma": {
+    "path": "/assets/sprites/hiruma.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kurita": {
+    "path": "/assets/sprites/kurita.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "monta": {
+    "path": "/assets/sprites/monta.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "yukimitsu": {
+    "path": "/assets/sprites/yukimitsu.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "taki": {
+    "path": "/assets/sprites/taki.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "musashi": {
+    "path": "/assets/sprites/musashi.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "jumonji": {
+    "path": "/assets/sprites/jumonji.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "komusubi": {
+    "path": "/assets/sprites/komusubi.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kuroki": {
+    "path": "/assets/sprites/kuroki.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "togano": {
+    "path": "/assets/sprites/togano.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "shin": {
+    "path": "/assets/sprites/shin.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "takami": {
+    "path": "/assets/sprites/takami.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "sakuraba": {
+    "path": "/assets/sprites/sakuraba.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ohtawara": {
+    "path": "/assets/sprites/ohtawara.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "ikari": {
+    "path": "/assets/sprites/ikari.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ojo_lb": {
+    "path": "/assets/sprites/ojo_lb.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ojo_cb": {
+    "path": "/assets/sprites/ojo_cb.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ojo_te": {
+    "path": "/assets/sprites/ojo_te.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ojo_ol1": {
+    "path": "/assets/sprites/ojo_ol1.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ojo_dl": {
+    "path": "/assets/sprites/ojo_dl.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ojo_s": {
+    "path": "/assets/sprites/ojo_s.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kid": {
+    "path": "/assets/sprites/kid.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "riku": {
+    "path": "/assets/sprites/riku.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "tetsuma": {
+    "path": "/assets/sprites/tetsuma.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "seibu_heavy": {
+    "path": "/assets/sprites/seibu_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "seibu_line": {
+    "path": "/assets/sprites/seibu_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "seibu_skill": {
+    "path": "/assets/sprites/seibu_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "agon": {
+    "path": "/assets/sprites/agon.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "unsui": {
+    "path": "/assets/sprites/unsui.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ikkyu": {
+    "path": "/assets/sprites/ikkyu.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "shinryuji_heavy": {
+    "path": "/assets/sprites/shinryuji_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "shinryuji_line": {
+    "path": "/assets/sprites/shinryuji_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "shinryuji_skill": {
+    "path": "/assets/sprites/shinryuji_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ushijima": {
+    "path": "/assets/sprites/ushijima.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "yamabushi": {
+    "path": "/assets/sprites/yamabushi.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "gaou": {
+    "path": "/assets/sprites/gaou.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "marco": {
+    "path": "/assets/sprites/marco.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kisaragi": {
+    "path": "/assets/sprites/kisaragi.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "tengu": {
+    "path": "/assets/sprites/tengu.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hakushu_heavy": {
+    "path": "/assets/sprites/hakushu_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "hakushu_line": {
+    "path": "/assets/sprites/hakushu_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hakushu_skill": {
+    "path": "/assets/sprites/hakushu_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "yamato": {
+    "path": "/assets/sprites/yamato.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "taka": {
+    "path": "/assets/sprites/taka.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "karin": {
+    "path": "/assets/sprites/karin.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "heracles": {
+    "path": "/assets/sprites/heracles.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "teikoku_heavy": {
+    "path": "/assets/sprites/teikoku_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "teikoku_line": {
+    "path": "/assets/sprites/teikoku_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "teikoku_skill": {
+    "path": "/assets/sprites/teikoku_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ishimaru": {
+    "path": "/assets/sprites/ishimaru.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "omosadake": {
+    "path": "/assets/sprites/omosadake.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "chuubou": {
+    "path": "/assets/sprites/chuubou.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "mitsui": {
+    "path": "/assets/sprites/mitsui.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "tokashiki": {
+    "path": "/assets/sprites/tokashiki.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "sano": {
+    "path": "/assets/sprites/sano.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hotei": {
+    "path": "/assets/sprites/hotei.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "achilles": {
+    "path": "/assets/sprites/achilles.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "tenma": {
+    "path": "/assets/sprites/tenma.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ibarada": {
+    "path": "/assets/sprites/ibarada.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "akaba": {
+    "path": "/assets/sprites/akaba.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kotaro": {
+    "path": "/assets/sprites/kotaro.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "bando_heavy": {
+    "path": "/assets/sprites/bando_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "bando_line": {
+    "path": "/assets/sprites/bando_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "bando_skill": {
+    "path": "/assets/sprites/bando_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kakei": {
+    "path": "/assets/sprites/kakei.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "mizumachi": {
+    "path": "/assets/sprites/mizumachi.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kobanzame": {
+    "path": "/assets/sprites/kobanzame.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ohira": {
+    "path": "/assets/sprites/ohira.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "onishi": {
+    "path": "/assets/sprites/onishi.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "kyoshin_line": {
+    "path": "/assets/sprites/kyoshin_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kyoshin_skill": {
+    "path": "/assets/sprites/kyoshin_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "banba": {
+    "path": "/assets/sprites/banba.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "harao": {
+    "path": "/assets/sprites/harao.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kamaguruma": {
+    "path": "/assets/sprites/kamaguruma.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kasamatsu": {
+    "path": "/assets/sprites/kasamatsu.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "taiyo_heavy": {
+    "path": "/assets/sprites/taiyo_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "taiyo_line": {
+    "path": "/assets/sprites/taiyo_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "taiyo_skill": {
+    "path": "/assets/sprites/taiyo_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "panther": {
+    "path": "/assets/sprites/panther.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "homer": {
+    "path": "/assets/sprites/homer.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "watt": {
+    "path": "/assets/sprites/watt.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "gonzales_big": {
+    "path": "/assets/sprites/gonzales_big.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "gonzales_lit": {
+    "path": "/assets/sprites/gonzales_lit.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "nasa_heavy": {
+    "path": "/assets/sprites/nasa_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "nasa_line": {
+    "path": "/assets/sprites/nasa_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "nasa_skill": {
+    "path": "/assets/sprites/nasa_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "habashira": {
+    "path": "/assets/sprites/habashira.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "zokugaku_heavy": {
+    "path": "/assets/sprites/zokugaku_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "zokugaku_line": {
+    "path": "/assets/sprites/zokugaku_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "zokugaku_skill": {
+    "path": "/assets/sprites/zokugaku_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "munakata": {
+    "path": "/assets/sprites/munakata.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "aoyanagi": {
+    "path": "/assets/sprites/aoyanagi.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "amino_heavy": {
+    "path": "/assets/sprites/amino_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "amino_line": {
+    "path": "/assets/sprites/amino_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "amino_skill": {
+    "path": "/assets/sprites/amino_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hatsujo": {
+    "path": "/assets/sprites/hatsujo.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "koigahama_heavy": {
+    "path": "/assets/sprites/koigahama_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "koigahama_line": {
+    "path": "/assets/sprites/koigahama_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "koigahama_skill": {
+    "path": "/assets/sprites/koigahama_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "atsumi": {
+    "path": "/assets/sprites/atsumi.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "yuhi_heavy": {
+    "path": "/assets/sprites/yuhi_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "yuhi_line": {
+    "path": "/assets/sprites/yuhi_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "yuhi_skill": {
+    "path": "/assets/sprites/yuhi_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "onihei": {
+    "path": "/assets/sprites/onihei.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hashiratani_heavy": {
+    "path": "/assets/sprites/hashiratani_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "hashiratani_line": {
+    "path": "/assets/sprites/hashiratani_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hashiratani_skill": {
+    "path": "/assets/sprites/hashiratani_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "iwashige": {
+    "path": "/assets/sprites/iwashige.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "sado_heavy": {
+    "path": "/assets/sprites/sado_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "sado_line": {
+    "path": "/assets/sprites/sado_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "sado_skill": {
+    "path": "/assets/sprites/sado_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kamiya": {
+    "path": "/assets/sprites/kamiya.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "misaki_heavy": {
+    "path": "/assets/sprites/misaki_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "misaki_line": {
+    "path": "/assets/sprites/misaki_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "misaki_skill": {
+    "path": "/assets/sprites/misaki_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kita_heavy": {
+    "path": "/assets/sprites/kita_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "kita_line": {
+    "path": "/assets/sprites/kita_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kita_skill": {
+    "path": "/assets/sprites/kita_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kyokodai_heavy": {
+    "path": "/assets/sprites/kyokodai_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "kyokodai_line": {
+    "path": "/assets/sprites/kyokodai_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "kyokodai_skill": {
+    "path": "/assets/sprites/kyokodai_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ginga_heavy": {
+    "path": "/assets/sprites/ginga_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "ginga_line": {
+    "path": "/assets/sprites/ginga_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ginga_skill": {
+    "path": "/assets/sprites/ginga_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "sankaku_heavy": {
+    "path": "/assets/sprites/sankaku_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "sankaku_line": {
+    "path": "/assets/sprites/sankaku_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "sankaku_skill": {
+    "path": "/assets/sprites/sankaku_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "dokubari_heavy": {
+    "path": "/assets/sprites/dokubari_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "dokubari_line": {
+    "path": "/assets/sprites/dokubari_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "dokubari_skill": {
+    "path": "/assets/sprites/dokubari_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "jujika_heavy": {
+    "path": "/assets/sprites/jujika_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "jujika_line": {
+    "path": "/assets/sprites/jujika_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "jujika_skill": {
+    "path": "/assets/sprites/jujika_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "arito_heavy": {
+    "path": "/assets/sprites/arito_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "arito_line": {
+    "path": "/assets/sprites/arito_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "arito_skill": {
+    "path": "/assets/sprites/arito_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ooiyama_heavy": {
+    "path": "/assets/sprites/ooiyama_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "ooiyama_line": {
+    "path": "/assets/sprites/ooiyama_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "ooiyama_skill": {
+    "path": "/assets/sprites/ooiyama_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "urahara_heavy": {
+    "path": "/assets/sprites/urahara_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "urahara_line": {
+    "path": "/assets/sprites/urahara_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "urahara_skill": {
+    "path": "/assets/sprites/urahara_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "edomae_heavy": {
+    "path": "/assets/sprites/edomae_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "edomae_line": {
+    "path": "/assets/sprites/edomae_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "edomae_skill": {
+    "path": "/assets/sprites/edomae_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "karibu_heavy": {
+    "path": "/assets/sprites/karibu_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "karibu_line": {
+    "path": "/assets/sprites/karibu_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "karibu_skill": {
+    "path": "/assets/sprites/karibu_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "jonandai_heavy": {
+    "path": "/assets/sprites/jonandai_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "jonandai_line": {
+    "path": "/assets/sprites/jonandai_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "jonandai_skill": {
+    "path": "/assets/sprites/jonandai_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "sengoku_heavy": {
+    "path": "/assets/sprites/sengoku_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "sengoku_line": {
+    "path": "/assets/sprites/sengoku_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "sengoku_skill": {
+    "path": "/assets/sprites/sengoku_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "tamagawa_heavy": {
+    "path": "/assets/sprites/tamagawa_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "tamagawa_line": {
+    "path": "/assets/sprites/tamagawa_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "tamagawa_skill": {
+    "path": "/assets/sprites/tamagawa_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "chuodai_heavy": {
+    "path": "/assets/sprites/chuodai_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "chuodai_line": {
+    "path": "/assets/sprites/chuodai_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "chuodai_skill": {
+    "path": "/assets/sprites/chuodai_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "noroi_heavy": {
+    "path": "/assets/sprites/noroi_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "noroi_line": {
+    "path": "/assets/sprites/noroi_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "noroi_skill": {
+    "path": "/assets/sprites/noroi_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hanazono_heavy": {
+    "path": "/assets/sprites/hanazono_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "hanazono_line": {
+    "path": "/assets/sprites/hanazono_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hanazono_skill": {
+    "path": "/assets/sprites/hanazono_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "tsukufu_heavy": {
+    "path": "/assets/sprites/tsukufu_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "tsukufu_line": {
+    "path": "/assets/sprites/tsukufu_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "tsukufu_skill": {
+    "path": "/assets/sprites/tsukufu_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "nakaba_heavy": {
+    "path": "/assets/sprites/nakaba_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "nakaba_line": {
+    "path": "/assets/sprites/nakaba_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "nakaba_skill": {
+    "path": "/assets/sprites/nakaba_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "nansei_heavy": {
+    "path": "/assets/sprites/nansei_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "nansei_line": {
+    "path": "/assets/sprites/nansei_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "nansei_skill": {
+    "path": "/assets/sprites/nansei_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hori_heavy": {
+    "path": "/assets/sprites/hori_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "hori_line": {
+    "path": "/assets/sprites/hori_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "hori_skill": {
+    "path": "/assets/sprites/hori_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "mitama_heavy": {
+    "path": "/assets/sprites/mitama_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "mitama_line": {
+    "path": "/assets/sprites/mitama_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "mitama_skill": {
+    "path": "/assets/sprites/mitama_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "raten_heavy": {
+    "path": "/assets/sprites/raten_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "raten_line": {
+    "path": "/assets/sprites/raten_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "raten_skill": {
+    "path": "/assets/sprites/raten_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "waseda_heavy": {
+    "path": "/assets/sprites/waseda_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "waseda_line": {
+    "path": "/assets/sprites/waseda_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "waseda_skill": {
+    "path": "/assets/sprites/waseda_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "japan_heavy": {
+    "path": "/assets/sprites/japan_heavy.png",
+    "frameWidth": 38,
+    "frameHeight": 38,
+    "cols": 4,
+    "rows": 6
+  },
+  "japan_line": {
+    "path": "/assets/sprites/japan_line.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "japan_skill": {
+    "path": "/assets/sprites/japan_skill.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "apollo": {
+    "path": "/assets/sprites/apollo.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "doburoku": {
+    "path": "/assets/sprites/doburoku.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "mamori": {
+    "path": "/assets/sprites/mamori.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  },
+  "suzuna": {
+    "path": "/assets/sprites/suzuna.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "cols": 4,
+    "rows": 6
+  }
+}
